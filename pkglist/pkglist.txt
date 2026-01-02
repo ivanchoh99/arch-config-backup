@@ -32,6 +32,7 @@ sof-firmware
 stow
 timeshift
 vim
+vlc
 vulkan-intel
 vulkan-nouveau
 vulkan-radeon
