@@ -46,7 +46,7 @@
           "type": "git"
         },
         {
-          "background": "#524D78",
+          "background": "##381EFA",
           "foreground": "#ffffff",
           "options": {
             "always_enabled": true
