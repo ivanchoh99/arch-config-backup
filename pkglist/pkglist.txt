@@ -33,6 +33,7 @@ smartmontools
 sof-firmware
 stow
 timeshift
+unzip
 vim
 vlc
 vulkan-intel
