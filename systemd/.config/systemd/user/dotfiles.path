@@ -1,0 +1,10 @@
+[Unit]
+Description=Vigilar cambios en la carpeta de Dotfiles
+
+[Path]
+# Detecta cualquier modificación en la carpeta o archivos dentro
+PathModified=/home/dcloud99/dotfiles
+DirectoryNotEmpty=/home/dcloud99/dotfiles
+
+[Install]
+WantedBy=default.target

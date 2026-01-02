@@ -1,0 +1,12 @@
+[Unit]
+Description=Servicio de respaldo automático de Dotfiles
+StartLimitIntervalSec=0
+StartLimitBurst=0
+
+[Service]
+Type=oneshot
+# Ruta completa a tu script
+ExecStart=/home/dcloud99/dotfiles/autoguardado.sh
+
+[Install]
+WantedBy=default.target
