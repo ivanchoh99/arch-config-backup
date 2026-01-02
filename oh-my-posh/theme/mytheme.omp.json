@@ -6,7 +6,7 @@
       "segments": [
         {
           "background": "#feae34",
-          "foreground": "#ffffff",
+          "foreground": "#262b44",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
           "template": " {{ .UserName }} ",
