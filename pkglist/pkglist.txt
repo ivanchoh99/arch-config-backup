@@ -10,6 +10,7 @@ firefox
 git
 gst-plugin-pipewire
 htop
+inotify-tools
 intel-media-driver
 intel-ucode
 iwd
