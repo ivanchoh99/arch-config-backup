@@ -11,4 +11,4 @@ PS1='[\u@\h \W]\$ '
 
 export TERM=xterm-256color
 export PATH=$PATH:~/.local/bin
-eval "$(oh-my-posh init bash)"
+eval "$(oh-my-posh init bash --config larserikfinholt)"
