@@ -80,7 +80,7 @@
         {
           "background": "#008000",
           "background_templates": [
-            "{{ if gt .Code 0 }}#e91e63{{ end }}"
+            "{{ if gt .Code 0 }}##FF2C2C{{ end }}"
           ],
           "foreground": "#ffffff",
           "options": {
