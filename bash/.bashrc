@@ -10,4 +10,5 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 export TERM=xterm-256color
+export PATH=$PATH:~/.local/bin
 eval "$(oh-my-posh init bash)"
