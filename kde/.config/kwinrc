@@ -6,6 +6,9 @@ Rows=1
 [Effect-overview]
 BorderActivate=9
 
+[NightColor]
+Active=true
+
 [Tiling]
 padding=4
 
