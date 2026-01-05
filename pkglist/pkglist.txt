@@ -30,6 +30,7 @@ pipewire-jack
 pipewire-pulse
 plasma-meta
 plasma-workspace
+podman
 smartmontools
 sof-firmware
 stow
