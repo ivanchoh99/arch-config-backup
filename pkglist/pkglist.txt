@@ -26,6 +26,9 @@ linux
 linux-firmware
 linux-headers
 nano
+nvidia-open-dkms
+nvidia-utils
+opencl-nvidia
 openssh
 pipewire
 pipewire-alsa
