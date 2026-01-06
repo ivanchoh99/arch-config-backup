@@ -11,7 +11,10 @@ fastfetch
 firefox
 gimp
 git
+glib2-devel
+gobject-introspection
 gst-plugin-pipewire
+gtk-doc
 htop
 intel-media-driver
 intel-ucode
