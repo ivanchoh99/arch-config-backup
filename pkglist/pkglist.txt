@@ -20,17 +20,12 @@ jdk21-openjdk
 kate
 konsole
 less
-lib32-nvidia-utils
 libpulse
 libva-intel-driver
 linux
 linux-firmware
 linux-headers
 nano
-nvidia-open-dkms
-nvidia-prime
-nvidia-settings
-nvidia-utils
 openssh
 pipewire
 pipewire-alsa
