@@ -1,3 +1,4 @@
+libxnvctrl-470xx
 nvidia-470xx-utils
 yay
 yay-debug
