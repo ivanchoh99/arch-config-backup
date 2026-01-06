@@ -1,0 +1,5 @@
+gtk2
+gtk2-debug
+nvidia-470xx-utils
+yay
+yay-debug
