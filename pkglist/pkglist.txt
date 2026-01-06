@@ -25,6 +25,7 @@ libpulse
 libva-intel-driver
 linux
 linux-firmware
+linux-headers
 nano
 nvidia-open-dkms
 nvidia-settings
