@@ -12,8 +12,9 @@ firefox
 gimp
 git
 gst-plugin-pipewire
+gtk2
+gtk2-debug
 htop
-inetutils
 intel-media-driver
 intel-ucode
 iwd
@@ -27,6 +28,7 @@ linux
 linux-firmware
 linux-headers
 nano
+nvidia-470xx-utils
 openssh
 pipewire
 pipewire-alsa
