@@ -1,3 +1,4 @@
+antigravity
 lib32-nvidia-470xx-utils
 lib32-opencl-nvidia-470xx
 nvidia-470xx-dkms
