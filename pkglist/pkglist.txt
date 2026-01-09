@@ -43,7 +43,6 @@ pipewire-pulse
 plasma-meta
 plasma-workspace
 podman
-python-npx
 smartmontools
 sof-firmware
 stow
