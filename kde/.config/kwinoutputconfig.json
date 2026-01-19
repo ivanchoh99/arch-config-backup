@@ -160,17 +160,17 @@
                             "x": 0,
                             "y": 0
                         },
-                        "priority": 1,
+                        "priority": 0,
                         "replicationSource": ""
                     },
                     {
-                        "enabled": true,
+                        "enabled": false,
                         "outputIndex": 2,
                         "position": {
                             "x": 1920,
                             "y": 0
                         },
-                        "priority": 0,
+                        "priority": -1,
                         "replicationSource": ""
                     }
                 ]
