@@ -21,7 +21,6 @@ intel-media-driver
 intel-ucode
 iwd
 jdk21-openjdk
-jq
 kate
 konsole
 less
