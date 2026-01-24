@@ -6,5 +6,7 @@ nvidia-470xx-settings
 nvidia-470xx-utils
 opencl-nvidia-470xx
 visual-studio-code-bin
+wps-office
+wps-office-debug
 yay
 yay-debug
