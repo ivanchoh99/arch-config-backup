@@ -5,5 +5,6 @@ nvidia-470xx-dkms
 nvidia-470xx-settings
 nvidia-470xx-utils
 opencl-nvidia-470xx
+visual-studio-code-bin
 yay
 yay-debug

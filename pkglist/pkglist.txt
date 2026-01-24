@@ -52,6 +52,7 @@ stow
 timeshift
 unzip
 vim
+visual-studio-code-bin
 vlc
 vulkan-intel
 vulkan-radeon
