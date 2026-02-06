@@ -154,13 +154,13 @@
                 "lidClosed": false,
                 "outputs": [
                     {
-                        "enabled": true,
+                        "enabled": false,
                         "outputIndex": 0,
                         "position": {
                             "x": 0,
                             "y": 0
                         },
-                        "priority": 1,
+                        "priority": -1,
                         "replicationSource": ""
                     },
                     {
@@ -171,7 +171,7 @@
                             "y": 0
                         },
                         "priority": 0,
-                        "replicationSource": "7b486bd2-eea3-4349-8343-27e5d803d46f"
+                        "replicationSource": ""
                     }
                 ]
             }
