@@ -1,4 +1,5 @@
 7zip
+ant
 antigravity
 ark
 base
@@ -22,6 +23,7 @@ intel-ucode
 iptables
 iwd
 jdk21-openjdk
+jq
 kate
 konsole
 less
