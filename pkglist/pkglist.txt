@@ -1,5 +1,4 @@
 7zip
-ant
 antigravity
 ark
 base
@@ -13,6 +12,7 @@ efibootmgr
 egl-wayland
 fastfetch
 firefox
+fuse-overlayfs
 gimp
 git
 gst-plugin-pipewire
@@ -23,9 +23,9 @@ intel-ucode
 iptables
 iwd
 jdk21-openjdk
-jq
 kate
 konsole
+lazydocker
 less
 lib32-nvidia-470xx-utils
 lib32-opencl-nvidia-470xx
@@ -51,6 +51,8 @@ pipewire-pulse
 plasma-meta
 plasma-workspace
 podman
+podman-compose
+podman-docker
 smartmontools
 sof-firmware
 stow

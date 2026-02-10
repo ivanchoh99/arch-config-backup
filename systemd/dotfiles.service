@@ -9,4 +9,4 @@ Type=oneshot
 ExecStart=/home/dcloud99/dotfiles/autoguardado.sh
 
 [Install]
-WantedBy=default.target
+#WantedBy=default.target
