@@ -5,6 +5,7 @@ base
 base-devel
 bluez
 bluez-utils
+chromium
 dolphin
 drawio
 efibootmgr
