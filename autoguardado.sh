@@ -2,7 +2,7 @@
 
 # --- CONFIGURACIÓN ---
 REPO_DIR="$HOME/dotfiles"
-LOG_FILE="/tmp/dotfiles_autoguardado.log"
+LOG_FILE="$HOME/.cache/dotfiles_autoguardado.log"
 
 # Archivos a vigilar
 FILE_NATIVE="pkglist/pkglist.txt"

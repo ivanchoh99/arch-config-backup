@@ -2,6 +2,15 @@
 Description=Vigilar cambios en listas de paquetes
 
 [Path]
+
+PathChanged=/home/dcloud99/dotfiles/bash/
+PathChanged=/home/dcloud99/dotfiles/git/
+PathChanged=/home/dcloud99/dotfiles/gtk/
+PathChanged=/home/dcloud99/dotfiles/kde/
+PathChanged=/home/dcloud99/dotfiles/oh-my-posh/
+PathChanged=/home/dcloud99/dotfiles/pkglist/
+PathChanged=/home/dcloud99/dotfiles/systemd/
+
 # Vigilamos solo la carpeta de los .txt para evitar bucles
 PathChanged=/home/dcloud99/dotfiles/pkglist/
 
