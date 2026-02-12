@@ -15,6 +15,7 @@ firefox
 fuse-overlayfs
 gimp
 git
+go
 gst-plugin-pipewire
 gwenview
 htop
