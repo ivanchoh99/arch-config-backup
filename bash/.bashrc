@@ -20,7 +20,6 @@ export DOCKER_HOST=unix:///run/user/$UID/podman/podman.sock
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 
-
 # 2. Si no es interactivo, no cargar alias/prompt, pero el PATH ya se cargó arriba
 [[ $- != *i* ]] && return
 
