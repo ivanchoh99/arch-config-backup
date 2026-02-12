@@ -17,7 +17,7 @@ eval "$(oh-my-posh init bash --config ~/dotfiles/oh-my-posh/theme/mytheme.omp.js
 # 1. Mover el PATH al principio para asegurar que esté disponible siempre
 export PATH=$PATH:~/.local/bin:/usr/bin
 export DOCKER_HOST=unix:///run/user/$UID/podman/podman.sock
-export
+export 
 
 # 2. Si no es interactivo, no cargar alias/prompt, pero el PATH ya se cargó arriba
 [[ $- != *i* ]] && return
