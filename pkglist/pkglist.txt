@@ -53,6 +53,7 @@ plasma-workspace
 podman
 podman-compose
 podman-docker
+reflector
 smartmontools
 sof-firmware
 stow
