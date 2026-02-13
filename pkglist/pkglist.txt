@@ -55,6 +55,7 @@ plasma-workspace
 podman
 podman-compose
 podman-docker
+postgresql
 reflector
 smartmontools
 sof-firmware
