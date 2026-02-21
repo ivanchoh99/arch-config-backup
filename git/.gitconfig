@@ -3,3 +3,5 @@
 	email = ivanchoh99@gmail.com
 [init]
 	defaultBranch = main
+[core]
+	autocrlf = input
