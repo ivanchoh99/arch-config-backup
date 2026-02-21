@@ -1,5 +1,4 @@
 7zip
-antigravity
 ark
 base
 base-devel
