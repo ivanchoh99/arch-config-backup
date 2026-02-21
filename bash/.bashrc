@@ -13,6 +13,8 @@ export TERM=xterm-256color
 export PATH=$PATH:~/.local/bin
 eval "$(oh-my-posh init bash --config ~/dotfiles/oh-my-posh/theme/mytheme.omp.json)"
 # ~/.bashrc
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 # 1. Mover el PATH al principio para asegurar que esté disponible siempre
 export PATH=$PATH:~/.local/bin:/usr/bin
