@@ -8,7 +8,6 @@ bluez-utils
 chromium
 dbeaver
 dolphin
-drawio
 efibootmgr
 egl-wayland
 fastfetch
