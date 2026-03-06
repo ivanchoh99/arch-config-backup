@@ -42,7 +42,6 @@ nvidia-470xx-dkms
 nvidia-470xx-settings
 nvidia-470xx-utils
 nvm
-obsidian
 opencl-nvidia-470xx
 openssh
 pipewire
