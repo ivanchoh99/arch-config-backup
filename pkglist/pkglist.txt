@@ -81,6 +81,7 @@ xdg-utils
 xf86-video-amdgpu
 xf86-video-ati
 xorg-xinit
+xorg-xrandr
 yay
 yay-debug
 zram-generator
