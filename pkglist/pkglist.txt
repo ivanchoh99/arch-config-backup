@@ -11,7 +11,6 @@ dolphin
 efibootmgr
 egl-wayland
 execstack
-execstack-debug
 fastfetch
 firefox
 fuse-overlayfs
@@ -46,6 +45,7 @@ nvidia-470xx-utils
 nvm
 opencl-nvidia-470xx
 openssh
+patchelf
 pipewire
 pipewire-alsa
 pipewire-jack
