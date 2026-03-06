@@ -58,7 +58,6 @@ podman-compose
 podman-docker
 postgresql
 python-pip
-python311
 reflector
 smartmontools
 sof-firmware
