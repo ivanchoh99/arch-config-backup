@@ -36,6 +36,8 @@ libva-intel-driver
 linux
 linux-firmware
 linux-headers
+linux-lts
+linux-lts-headers
 nano
 nodejs-lts-krypton
 npm
@@ -45,7 +47,6 @@ nvidia-470xx-utils
 nvm
 opencl-nvidia-470xx
 openssh
-patchelf
 pipewire
 pipewire-alsa
 pipewire-jack
