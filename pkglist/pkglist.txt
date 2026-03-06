@@ -60,6 +60,7 @@ smartmontools
 sof-firmware
 stow
 timeshift
+tk
 unzip
 vim
 virtualbox
