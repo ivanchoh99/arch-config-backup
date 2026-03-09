@@ -26,6 +26,7 @@ iptables
 iwd
 jdk21-openjdk
 kate
+kdeconnect
 konsole
 lazydocker
 less
