@@ -7,10 +7,12 @@ bluez
 bluez-utils
 chromium
 dbeaver
+djvulibre
 dolphin
 efibootmgr
 egl-wayland
 execstack
+extra-cmake-modules
 fastfetch
 firefox
 fuse-overlayfs
@@ -27,12 +29,15 @@ iwd
 jdk21-openjdk
 kate
 kdeconnect
+kdegraphics-mobipocket
+kdoctools
 konsole
 lazydocker
 less
 lib32-nvidia-470xx-utils
 lib32-opencl-nvidia-470xx
 libpulse
+libspectre
 libva-intel-driver
 linux
 linux-firmware
@@ -48,6 +53,7 @@ nvidia-470xx-utils
 nvm
 opencl-nvidia-470xx
 openssh
+phonon-qt6
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -63,6 +69,7 @@ reflector
 smartmontools
 sof-firmware
 stow
+threadweaver
 timeshift
 unzip
 vim
