@@ -1,6 +1,8 @@
 7zip
 antigravity
 ark
+aspnet-runtime
+aspnet-targeting-pack
 base
 base-devel
 bluez
@@ -8,6 +10,7 @@ bluez-utils
 chromium
 dbeaver
 dolphin
+dotnet-sdk
 efibootmgr
 egl-wayland
 execstack
