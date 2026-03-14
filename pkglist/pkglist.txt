@@ -8,6 +8,7 @@ bluez-utils
 chromium
 dbeaver
 dolphin
+dotnet-sdk
 efibootmgr
 egl-wayland
 execstack
