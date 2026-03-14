@@ -11,7 +11,7 @@ PS1='[\u@\h \W]\$ '
 
 export TERM=xterm-256color
 export PATH=$PATH:~/.local/bin
-export PATH="$PATH:$HOME/.dotnet/tools"
+export PATH=$PATH:$HOME/.dotnet/tools
 eval "$(oh-my-posh init bash --config ~/dotfiles/oh-my-posh/theme/mytheme.omp.json)"
 # ~/.bashrc
 export NVM_DIR="$HOME/.nvm"
