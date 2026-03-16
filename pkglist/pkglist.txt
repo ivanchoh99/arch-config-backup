@@ -64,8 +64,7 @@ podman-docker
 postgresql
 python-pip
 reflector
-samsung-unified-driver-printer
-samsung-unified-driver-scanner
+samsung-unified-driver
 smartmontools
 sof-firmware
 stow
