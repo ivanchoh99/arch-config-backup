@@ -68,6 +68,7 @@ sof-firmware
 stow
 timeshift
 unzip
+usbutils
 vim
 virtualbox
 virtualbox-guest-iso
