@@ -37,6 +37,7 @@ less
 lib32-nvidia-470xx-utils
 lib32-opencl-nvidia-470xx
 libpulse
+libusb-compat
 libva-intel-driver
 linux
 linux-firmware
@@ -64,6 +65,7 @@ podman-docker
 postgresql
 python-pip
 reflector
+sane
 smartmontools
 sof-firmware
 stow
