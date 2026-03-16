@@ -8,6 +8,7 @@ base-devel
 bluez
 bluez-utils
 chromium
+cups
 dbeaver
 dolphin
 dotnet-sdk
