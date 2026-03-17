@@ -83,6 +83,8 @@ wget
 wireless_tools
 wireplumber
 wpa_supplicant
+wps-office
+wps-office-debug
 xdg-utils
 xf86-video-amdgpu
 xf86-video-ati
