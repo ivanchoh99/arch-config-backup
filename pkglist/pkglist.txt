@@ -22,6 +22,8 @@ gimp
 git
 go
 gst-plugin-pipewire
+gst-plugins-good
+gst-plugins-ugly
 gwenview
 htop
 intel-media-driver
