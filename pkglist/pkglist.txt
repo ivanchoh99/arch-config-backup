@@ -21,6 +21,7 @@ fuse-overlayfs
 gimp
 git
 go
+gradle
 gst-plugin-pipewire
 gst-plugins-good
 gst-plugins-ugly
