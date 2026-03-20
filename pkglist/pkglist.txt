@@ -46,6 +46,7 @@ linux-firmware
 linux-headers
 linux-lts
 linux-lts-headers
+mpv
 nano
 nodejs-lts-krypton
 npm
