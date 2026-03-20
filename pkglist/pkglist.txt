@@ -41,8 +41,9 @@ lib32-opencl-nvidia-470xx
 libpulse
 libreoffice-still
 libva-intel-driver
+libva-utils
 libva-vdpau-driver
-libva-vdpau-driver-debug
+libvdpau-va-gl
 linux
 linux-firmware
 linux-headers
