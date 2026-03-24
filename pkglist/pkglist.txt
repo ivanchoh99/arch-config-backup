@@ -88,6 +88,7 @@ visual-studio-code-bin
 vlc
 vulkan-intel
 vulkan-radeon
+webkit2gtk-4.1
 wget
 wireless_tools
 wireplumber
