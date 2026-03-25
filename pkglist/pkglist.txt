@@ -34,6 +34,7 @@ iwd
 jdk21-openjdk
 kate
 kdeconnect
+keyd
 konsole
 lazydocker
 less
