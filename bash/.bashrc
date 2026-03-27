@@ -6,7 +6,6 @@
 # 2. Aliases y Prompt
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias code='env -u LIBVA_DRIVER_NAME -u VDPAU_DRIVER code --disable-gpu'
 export TERM=xterm-256color
 
 # 3. PATH Inicial
