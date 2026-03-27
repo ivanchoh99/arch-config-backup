@@ -145,7 +145,7 @@ LookAndFeelPackage=org.kde.breezedark.desktop
 Allow Expansion=false
 Automatically select filename extension=true
 Breadcrumb Navigation=false
-Decoration position=2
+Decoration position=0
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
@@ -154,9 +154,9 @@ Show hidden files=false
 Sort by=Date
 Sort directories first=true
 Sort hidden files last=false
-Sort reversed=false
+Sort reversed=true
 Speedbar Width=140
-View Style=DetailTree
+View Style=Detail
 
 [KShortcutsDialog Settings]
 Dialog Size=600,480
