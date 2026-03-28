@@ -2,6 +2,7 @@
 antigravity
 ark
 aspnet-runtime
+aspnet-runtime-8.0
 aspnet-targeting-pack
 base
 base-devel
@@ -12,6 +13,7 @@ cups
 dbeaver
 dolphin
 dotnet-sdk
+dotnet-sdk-8.0
 efibootmgr
 egl-wayland
 execstack
