@@ -63,6 +63,7 @@ nvm
 obs-studio
 opencl-nvidia-470xx
 openssh
+pacman-contrib
 pipewire
 pipewire-alsa
 pipewire-jack
