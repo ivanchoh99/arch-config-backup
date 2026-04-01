@@ -80,6 +80,7 @@ samsung-unified-driver
 smartmontools
 sof-firmware
 stow
+thunderbird
 timeshift
 unzip
 usbutils
