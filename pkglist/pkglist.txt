@@ -11,6 +11,7 @@ bluez-utils
 chromium
 cups
 dbeaver
+delve
 dolphin
 dotnet-sdk
 dotnet-sdk-8.0
