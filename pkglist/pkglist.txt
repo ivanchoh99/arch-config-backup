@@ -83,6 +83,7 @@ sof-firmware
 stow
 thunderbird
 timeshift
+tree
 unzip
 usbutils
 vim
