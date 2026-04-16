@@ -9,6 +9,12 @@ BorderActivate=9
 [NightColor]
 Active=true
 
+[Tiling]
+padding=4
+
+[Tiling][42c67db7-a89f-5c4f-8667-d32bfc4ba1f6]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][91174057-13dd-4b38-a907-8e56fbbe9bb8][3804613b-b8b6-4d6b-a601-d467c09ac43f]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}

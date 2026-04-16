@@ -81,6 +81,7 @@ podman-docker
 postgresql
 python-pip
 reflector
+remmina
 samsung-unified-driver
 smartmontools
 sof-firmware
