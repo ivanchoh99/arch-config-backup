@@ -1,5 +1,6 @@
 7zip
 antigravity
+anydesk-bin
 ark
 aspnet-runtime
 aspnet-runtime-8.0
@@ -53,7 +54,6 @@ linux-firmware
 linux-headers
 linux-lts
 linux-lts-headers
-lsb-release
 mpv
 nano
 nodejs-lts-krypton
