@@ -53,6 +53,7 @@ linux-firmware
 linux-headers
 linux-lts
 linux-lts-headers
+lsb-release
 mpv
 nano
 nodejs-lts-krypton
