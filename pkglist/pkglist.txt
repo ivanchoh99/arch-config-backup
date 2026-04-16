@@ -74,6 +74,7 @@ pipewire-jack
 pipewire-pulse
 plasma-meta
 plasma-workspace
+plasma-x11-session
 podman
 podman-compose
 podman-docker
