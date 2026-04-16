@@ -99,6 +99,7 @@ wireless_tools
 wireplumber
 wpa_supplicant
 wps-office
+xdg-desktop-portal-gnome
 xdg-utils
 xf86-video-amdgpu
 xf86-video-ati

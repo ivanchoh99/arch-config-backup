@@ -9,6 +9,14 @@ BorderActivate=9
 [NightColor]
 Active=true
 
+[Tiling][91174057-13dd-4b38-a907-8e56fbbe9bb8][3804613b-b8b6-4d6b-a601-d467c09ac43f]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][91174057-13dd-4b38-a907-8e56fbbe9bb8][440f36cf-24af-4d9c-b2d2-91d4b2c766f8]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][91174057-13dd-4b38-a907-8e56fbbe9bb8][7b486bd2-eea3-4349-8343-27e5d803d46f]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
