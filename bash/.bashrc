@@ -23,3 +23,5 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 # 6. Autocompletado (Angular)
 source <(ng completion script)
+
+export MOZ_ENABLE_WAYLAND=1
