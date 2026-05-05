@@ -1,9 +1,0 @@
-antigravity
-anydesk-bin
-execstack
-libva-vdpau-driver
-samsung-unified-driver
-visual-studio-code-bin
-wps-office
-yay
-yay-debug
