@@ -6,7 +6,7 @@ StartLimitBurst=0
 [Service]
 Type=oneshot
 # Ruta completa a tu script
-ExecStart=/home/dcloud99/dotfiles/autoguardado.sh
+ExecStart=/home/dcloud99/dotfiles/auto-save.sh
 
 [Install]
 #WantedBy=default.target
