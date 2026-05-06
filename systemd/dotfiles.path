@@ -5,8 +5,6 @@ Description=Vigilar cambios en listas de paquetes
 
 PathChanged= %h/dotfiles/bash/
 PathChanged= %h/dotfiles/git/
-PathChanged= %h/dotfiles/gtk/
-PathChanged= %h/dotfiles/kde/
 PathChanged= %h/dotfiles/oh-my-posh/
 PathChanged= %h/dotfiles/pkglist/
 PathChanged= %h/dotfiles/systemd/

@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export DISPLAY=:0
+export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$(id -u)/bus
+
 # --- CONFIGURACIÓN ---
 REPO_DIR="$HOME/dotfiles"
 PKG_DIR="$REPO_DIR/pkglist"
