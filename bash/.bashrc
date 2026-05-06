@@ -29,3 +29,5 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+export ANDROID_HOME=$HOME/Android/Sdk
