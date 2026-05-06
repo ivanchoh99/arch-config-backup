@@ -13,6 +13,7 @@ PathChanged= %h/dotfiles/kde/.config/kdeglobals
 PathChanged= %h/dotfiles/kde/.config/kwinrc
 PathChanged= %h/dotfiles/kde/.config/plasmarc
 PathChanged= %h/dotfiles/kde/.local/
+PathChanged= %h/dotfiles/.gitignore
 
 # Vigilamos solo la carpeta de los .txt para evitar bucles
 PathChanged= %h/dotfiles/pkglist/
