@@ -19,3 +19,10 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 # 6. Autocompletado (Angular)
 source <(ng completion script)
+# pnpm
+export PNPM_HOME="/home/dcloud99/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
