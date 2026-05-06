@@ -17,6 +17,7 @@ gst-plugin-pipewire
 htop
 intel-media-driver
 intel-ucode
+jdk21-openjdk
 konsole
 less
 lib32-nvidia-580xx-utils
