@@ -28,6 +28,7 @@ linux-lts-headers
 nano
 network-manager-applet
 nodejs
+npm
 nvidia-580xx-dkms
 nvidia-580xx-utils
 nvidia-prime
