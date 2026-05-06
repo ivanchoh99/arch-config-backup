@@ -10,6 +10,7 @@ cups-pk-helper
 discord
 dolphin
 efibootmgr
+fastfetch
 firefox
 fnm-bin
 git
