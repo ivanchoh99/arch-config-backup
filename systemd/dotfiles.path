@@ -11,7 +11,7 @@ PathChanged= %h/dotfiles/systemd/
 PathChanged= %h/dotfiles/konsole/
 PathChanged= %h/dotfiles/kde/.config/kdeglobals
 PathChanged= %h/dotfiles/kde/.config/kwinrc
-PathChanged= %h/dotfiles/kde/.config/
+PathChanged= %h/dotfiles/kde/.config/pl
 
 # Vigilamos solo la carpeta de los .txt para evitar bucles
 PathChanged= %h/dotfiles/pkglist/
