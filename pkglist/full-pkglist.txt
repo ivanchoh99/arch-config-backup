@@ -47,6 +47,7 @@ steam
 stow
 sudo
 system-config-printer
+thunderbird
 timeshift
 tree
 ufw
