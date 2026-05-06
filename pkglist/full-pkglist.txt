@@ -57,12 +57,10 @@ vim
 visual-studio-code-bin
 vulkan-intel
 vulkan-nouveau
-vulkan-radeon
 wget
 whatsapp-linux-desktop
 wireplumber
 xdg-utils
-xf86-video-amdgpu
 xf86-video-ati
 xf86-video-nouveau
 yay
