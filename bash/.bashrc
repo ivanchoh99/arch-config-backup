@@ -16,3 +16,6 @@ eval "$(oh-my-posh init bash --config ~/dotfiles/oh-my-posh/theme/mytheme.omp.js
 # 5. Java Config (La clave para tu entorno)
 export JAVA_HOME=/usr/lib/jvm/default
 export PATH=$JAVA_HOME/bin:$PATH
+
+# Configuración de fnm (Node Version Manager)
+eval "$(fnm env --use-on-cd)"
