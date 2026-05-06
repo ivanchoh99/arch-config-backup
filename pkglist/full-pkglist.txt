@@ -11,6 +11,8 @@ discord
 dolphin
 efibootmgr
 firefox
+fnm-bin
+fnm-bin-debug
 git
 gst-plugin-pipewire
 htop
