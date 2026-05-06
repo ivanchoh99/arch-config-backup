@@ -19,6 +19,7 @@ htop
 intel-media-driver
 intel-ucode
 jdk21-openjdk
+jq
 konsole
 less
 lib32-nvidia-580xx-utils
