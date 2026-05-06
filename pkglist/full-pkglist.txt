@@ -16,6 +16,7 @@ gst-plugin-pipewire
 htop
 intel-media-driver
 intel-ucode
+kate
 konsole
 less
 lib32-nvidia-580xx-utils
