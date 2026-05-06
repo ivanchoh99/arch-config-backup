@@ -16,13 +16,3 @@ eval "$(oh-my-posh init bash --config ~/dotfiles/oh-my-posh/theme/mytheme.omp.js
 # 5. Java Config (La clave para tu entorno)
 export JAVA_HOME=/usr/lib/jvm/default
 export PATH=$JAVA_HOME/bin:$PATH
-
-# 6. Autocompletado (Angular)
-source <(ng completion script)
-# pnpm
-export PNPM_HOME="/home/dcloud99/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
