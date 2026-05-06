@@ -50,7 +50,6 @@ stow
 sudo
 system-config-printer
 thunderbird
-timeshift
 tree
 ufw
 vim
