@@ -15,6 +15,7 @@ fastfetch
 firefox
 fnm-bin
 git
+gradle
 gst-plugin-pipewire
 htop
 intel-media-driver
