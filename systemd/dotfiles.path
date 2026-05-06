@@ -8,7 +8,7 @@ PathChanged= %h/dotfiles/git/
 PathChanged= %h/dotfiles/oh-my-posh/
 PathChanged= %h/dotfiles/pkglist/
 PathChanged= %h/dotfiles/systemd/
-PathChanged=%h/dotfiles/konsole/
+PathChanged= %h/dotfiles/konsole/
 
 # Vigilamos solo la carpeta de los .txt para evitar bucles
 PathChanged= %h/dotfiles/pkglist/
