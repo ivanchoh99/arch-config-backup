@@ -35,6 +35,7 @@ nvidia-580xx-utils
 nvidia-prime
 oh-my-posh
 openssh
+papirus-icon-theme
 pipewire
 pipewire-alsa
 pipewire-jack
