@@ -20,6 +20,7 @@ konsole
 less
 lib32-nvidia-580xx-utils
 libpulse
+libreoffice-still
 libva-intel-driver
 linux-firmware
 linux-lts
