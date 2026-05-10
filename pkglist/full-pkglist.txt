@@ -11,11 +11,12 @@ cups-pk-helper
 discord
 dolphin
 efibootmgr
-extra-cmake-modules-git
 fastfetch
+fdupes
 firefox
 fnm-bin
 git
+gperf
 gradle
 gst-plugin-pipewire
 htop
@@ -45,7 +46,7 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 plasma-meta
-plasma-wayland-protocols-git
+python-lxml
 smartmontools
 sof-firmware
 spotify
