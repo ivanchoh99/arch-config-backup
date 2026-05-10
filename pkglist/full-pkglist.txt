@@ -6,7 +6,6 @@ base-devel
 bitwarden
 bluez
 bluez-utils
-claude-code
 cups
 cups-pk-helper
 discord
