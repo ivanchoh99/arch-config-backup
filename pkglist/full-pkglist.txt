@@ -12,11 +12,9 @@ discord
 dolphin
 efibootmgr
 fastfetch
-fdupes
 firefox
 fnm-bin
 git
-gperf
 gradle
 gst-plugin-pipewire
 htop
@@ -24,6 +22,12 @@ intel-media-driver
 intel-ucode
 jdk21-openjdk
 jq
+kconfig-git
+kconfig-git-debug
+kguiaddons-git
+kguiaddons-git-debug
+ki18n-git
+ki18n-git-debug
 konsole
 less
 lib32-nvidia-580xx-utils
@@ -46,7 +50,6 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 plasma-meta
-python-lxml
 smartmontools
 sof-firmware
 spotify
