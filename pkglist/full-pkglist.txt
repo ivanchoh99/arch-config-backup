@@ -6,11 +6,13 @@ base-devel
 bitwarden
 bluez
 bluez-utils
+cmake
 cups
 cups-pk-helper
 discord
 dolphin
 efibootmgr
+extra-cmake-modules
 fastfetch
 firefox
 fnm-bin
@@ -44,6 +46,12 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 plasma-meta
+python-requests
+python-sphinx
+qt5-base
+qt5-declarative
+qt5-tools
+reuse
 smartmontools
 sof-firmware
 spotify
