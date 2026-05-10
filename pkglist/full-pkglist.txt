@@ -9,6 +9,7 @@ bluez-utils
 cups
 cups-pk-helper
 discord
+docbook-xsl
 dolphin
 efibootmgr
 fastfetch
@@ -39,6 +40,7 @@ nvidia-prime
 oh-my-posh
 openssh
 papirus-icon-theme
+perl-uri
 pipewire
 pipewire-alsa
 pipewire-jack
