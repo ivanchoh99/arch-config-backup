@@ -22,12 +22,6 @@ intel-media-driver
 intel-ucode
 jdk21-openjdk
 jq
-kconfig-git
-kconfig-git-debug
-kguiaddons-git
-kguiaddons-git-debug
-ki18n-git
-ki18n-git-debug
 konsole
 less
 lib32-nvidia-580xx-utils
