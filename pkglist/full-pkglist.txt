@@ -21,6 +21,7 @@ gvim
 htop
 intel-media-driver
 intel-ucode
+intellij-idea-community-edition
 jdk21-openjdk
 jq
 konsole
