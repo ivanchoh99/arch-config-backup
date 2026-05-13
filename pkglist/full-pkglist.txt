@@ -15,6 +15,7 @@ efibootmgr
 fastfetch
 firefox
 fnm-bin
+fuse-overlayfs
 git
 gradle
 gst-plugin-pipewire
