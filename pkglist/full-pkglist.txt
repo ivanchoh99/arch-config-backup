@@ -46,6 +46,8 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 plasma-meta
+podman
+podman-compose
 postgresql
 qalculate-qt
 smartmontools
