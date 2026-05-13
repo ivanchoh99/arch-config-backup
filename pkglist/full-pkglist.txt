@@ -46,6 +46,7 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 plasma-meta
+postgresql
 qalculate-qt
 smartmontools
 sof-firmware
