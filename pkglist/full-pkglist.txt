@@ -26,6 +26,7 @@ intel-ucode
 jdk21-openjdk
 jq
 konsole
+lazydocker
 less
 lib32-nvidia-580xx-utils
 libpulse

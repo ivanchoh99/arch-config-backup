@@ -18,6 +18,8 @@
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "eDP-1",
+                "customModes": [
+                ],
                 "detectedDdcCi": false,
                 "edidHash": "3eead58071f80f4791c867c2c67c0043",
                 "edidIdentifier": "AUO 25581 0 0 2017 0",
@@ -26,6 +28,7 @@
                 "iccProfilePath": "",
                 "maxBitsPerColor": 0,
                 "mode": {
+                    "flags": 1,
                     "height": 1080,
                     "refreshRate": 60052,
                     "width": 1920
