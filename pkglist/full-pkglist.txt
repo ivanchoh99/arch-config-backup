@@ -41,6 +41,7 @@ nvidia-580xx-dkms
 nvidia-580xx-utils
 nvidia-prime
 oh-my-posh
+ollama
 openssh
 papirus-icon-theme
 pipewire
