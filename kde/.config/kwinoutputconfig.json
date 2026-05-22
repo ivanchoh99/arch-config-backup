@@ -61,13 +61,17 @@
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "HDMI-A-4",
+                "customModes": [
+                ],
                 "detectedDdcCi": true,
                 "edidHash": "8c6fdfb4a4159c47a2c65d4f919a5861",
                 "edidIdentifier": "IOC 65535 0 36 2023 0",
                 "edrPolicy": "always",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
+                "maxBitsPerColor": 0,
                 "mode": {
+                    "flags": 0,
                     "height": 1080,
                     "refreshRate": 100000,
                     "width": 1920
