@@ -33,3 +33,7 @@ esac
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH="$HOME/.local/bin:$PATH"
 export DOCKER_HOST=unix://$XDG_RUNTIME_DIR/podman/podman.sock
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
