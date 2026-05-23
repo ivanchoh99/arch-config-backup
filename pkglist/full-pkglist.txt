@@ -68,7 +68,6 @@ visual-studio-code-bin
 vulkan-intel
 vulkan-nouveau
 wget
-whatsapp-linux-desktop
 wireplumber
 xdg-utils
 xf86-video-ati
