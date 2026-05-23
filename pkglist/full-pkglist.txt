@@ -42,7 +42,6 @@ nvidia-580xx-utils
 nvidia-container-toolkit
 nvidia-prime
 oh-my-posh
-ollama
 openssh
 papirus-icon-theme
 pipewire
