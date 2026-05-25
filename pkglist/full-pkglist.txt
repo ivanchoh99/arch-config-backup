@@ -16,6 +16,7 @@ fastfetch
 firefox
 fnm-bin
 fuse-overlayfs
+gimp
 git
 gradle
 gst-plugin-pipewire
