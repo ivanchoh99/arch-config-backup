@@ -54,6 +54,7 @@ plasma-meta
 podman
 podman-compose
 postgresql
+python-pip
 qalculate-qt
 smartmontools
 sof-firmware
