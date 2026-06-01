@@ -6,7 +6,6 @@ base-devel
 bitwarden
 bluez
 bluez-utils
-chromium
 cups
 cups-pk-helper
 dbeaver
