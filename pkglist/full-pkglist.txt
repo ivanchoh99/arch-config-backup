@@ -1,6 +1,4 @@
 7zip
-accounts-qml-module-debug
-android-studio
 ark
 base
 base-devel
