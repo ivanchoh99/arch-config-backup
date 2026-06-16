@@ -75,5 +75,4 @@ xdg-utils
 xf86-video-ati
 xf86-video-nouveau
 yay
-yay-debug
 zram-generator
