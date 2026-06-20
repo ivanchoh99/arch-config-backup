@@ -42,6 +42,7 @@ nvidia-580xx-dkms
 nvidia-580xx-utils
 nvidia-container-toolkit
 nvidia-prime
+obs-studio
 oh-my-posh
 openssh
 papirus-icon-theme
