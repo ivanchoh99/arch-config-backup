@@ -44,7 +44,6 @@ nvidia-container-toolkit
 nvidia-prime
 obs-studio
 oh-my-posh
-opencode
 openssh
 papirus-icon-theme
 pipewire
