@@ -68,6 +68,7 @@ timeshift
 tree
 ufw
 visual-studio-code-bin
+vlc
 vulkan-intel
 vulkan-nouveau
 wget
