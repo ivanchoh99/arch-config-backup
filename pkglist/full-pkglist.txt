@@ -36,6 +36,7 @@ libva-intel-driver
 linux-firmware
 linux-lts
 linux-lts-headers
+mpv
 nano
 network-manager-applet
 nvidia-580xx-dkms
