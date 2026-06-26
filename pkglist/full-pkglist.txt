@@ -58,8 +58,7 @@ podman-compose
 postgresql
 python-pip
 qalculate-qt
-samsung-unified-driver-printer
-samsung-unified-driver-scanner
+samsung-unified-driver
 smartmontools
 sof-firmware
 spotify
