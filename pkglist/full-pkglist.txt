@@ -33,7 +33,9 @@ less
 lib32-nvidia-580xx-utils
 libpulse
 libreoffice-still
+libusb-compat
 libva-intel-driver
+libxml2-legacy
 linux-firmware
 linux-lts
 linux-lts-headers
@@ -58,6 +60,7 @@ podman-compose
 postgresql
 python-pip
 qalculate-qt
+sane
 smartmontools
 sof-firmware
 spotify
