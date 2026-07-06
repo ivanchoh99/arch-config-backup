@@ -85,6 +85,7 @@
                 "hdrIccProfilePath": "",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
+                "maxBitsPerColor": 0,
                 "mode": {
                     "flags": 0,
                     "height": 1080,
@@ -135,7 +136,6 @@
                 "hdrIccProfilePath": "",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
-                "maxBitsPerColor": 0,
                 "mode": {
                     "flags": 1,
                     "height": 1080,
@@ -242,7 +242,7 @@
                 "lidClosed": false,
                 "outputs": [
                     {
-                        "enabled": true,
+                        "enabled": false,
                         "outputIndex": 0,
                         "position": {
                             "x": 0,
@@ -255,10 +255,10 @@
                         "enabled": true,
                         "outputIndex": 2,
                         "position": {
-                            "x": 1920,
+                            "x": 0,
                             "y": 0
                         },
-                        "priority": 2,
+                        "priority": 1,
                         "replicationSource": ""
                     }
                 ]
