@@ -71,6 +71,7 @@ thunderbird
 timeshift
 tree
 ufw
+vim
 visual-studio-code-bin
 vulkan-intel
 vulkan-nouveau
