@@ -56,7 +56,7 @@
           "type": "executiontime"
         },
         {
-          "background": "#000000",
+          "background": "#00000000",
           "background_templates": [
             "{{ if gt .Hours 100 }}#dc3545{{ end }}",
             "{{ if and (lt .Hours 100) (gt .Hours 50) }}#ffc107{{ end }}",
