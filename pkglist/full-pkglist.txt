@@ -39,6 +39,7 @@ libva-intel-driver
 linux-firmware
 linux-lts
 linux-lts-headers
+lutris
 mpv
 nano
 network-manager-applet
