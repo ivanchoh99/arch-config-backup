@@ -22,7 +22,6 @@ git
 google-chrome
 gradle
 gst-plugin-pipewire
-gvim
 htop
 intel-media-driver
 intel-ucode
