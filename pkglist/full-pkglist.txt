@@ -28,6 +28,7 @@ intel-media-driver
 intel-ucode
 jdk21-openjdk
 jq
+kcolorscheme
 konsole
 lazydocker
 less
