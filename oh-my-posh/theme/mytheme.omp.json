@@ -47,11 +47,12 @@
         {
           "background": "#0077c2",
           "foreground": "#ffffff",
+          "powerline_symbol": "\ue0b0",
           "options": {
             "always_enabled": true
           },
-          "style": "plain",
-          "template": "<transparent>\ue0b0 </>\ueba2 {{ .FormattedMs }}\u2800 ",
+          "style": "powerline",
+          "template": "  \ueba2 {{ .FormattedMs }}\u2800  ",
           "type": "executiontime"
         },
         {
@@ -86,7 +87,7 @@
             "always_enabled": true
           },
           "style": "diamond",
-          "template": "<parentBackground>\ue0b0</> \ue23a ",
+          "template": " \ue23a ",
           "trailing_diamond": "\ue0b4",
           "type": "status"
         }
