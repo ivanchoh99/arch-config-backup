@@ -1,5 +1,6 @@
 7zip
 android-studio
+anydesk-bin
 ark
 base
 base-devel
