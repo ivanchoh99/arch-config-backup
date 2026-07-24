@@ -320,20 +320,20 @@
                         "enabled": true,
                         "outputIndex": 0,
                         "position": {
-                            "x": 0,
+                            "x": 1920,
                             "y": 0
                         },
-                        "priority": 1,
+                        "priority": 2,
                         "replicationSource": ""
                     },
                     {
                         "enabled": true,
                         "outputIndex": 3,
                         "position": {
-                            "x": 1920,
+                            "x": 0,
                             "y": 0
                         },
-                        "priority": 2,
+                        "priority": 1,
                         "replicationSource": ""
                     }
                 ]
