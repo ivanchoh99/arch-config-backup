@@ -25,7 +25,6 @@ gradle
 gst-plugin-pipewire
 htop
 insomnia
-insomnia-debug
 intel-media-driver
 intel-ucode
 jdk21-openjdk
