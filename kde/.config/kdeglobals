@@ -142,10 +142,10 @@ LastUsedCustomAccentColor=61,174,233
 Theme=Papirus-Dark
 
 [KDE]
-AutomaticLookAndFeel=false
-DefaultDarkLookAndFeel=com.github.vinceliuice.Layan
+AutomaticLookAndFeel=true
+DefaultDarkLookAndFeel=Darck Custome theme 1
 DefaultLightLookAndFeel=Ligth custome v1
-LookAndFeelPackage=com.github.vinceliuice.Layan
+LookAndFeelPackage=Darck Custome theme 1
 contrast=4
 frameContrast=0.2
 
