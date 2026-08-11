@@ -134,7 +134,7 @@ LastUsedCustomAccentColor=61,174,233
 AutomaticLookAndFeel=false
 DefaultDarkLookAndFeel=com.github.vinceliuice.Layan
 DefaultLightLookAndFeel=Ligth custome v1
-LookAndFeelPackage=Ligth custome v1
+LookAndFeelPackage=com.github.vinceliuice.Layan
 contrast=7
 frameContrast=0.2
 
