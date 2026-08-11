@@ -138,7 +138,7 @@ ColorSchemeHash=625c32ae46f33771aca7694ab0deae5a44bbf41c
 LastUsedCustomAccentColor=104,107,111
 
 [Icons]
-Theme=Papirus-Dark
+Theme=Papirus
 
 [KDE]
 AutomaticLookAndFeel=false
