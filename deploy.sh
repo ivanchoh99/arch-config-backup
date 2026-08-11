@@ -18,26 +18,26 @@ NC='\033[0m'
 echo -e "${BLUE}=== Despliegue de Dotfiles ===${NC}"
 echo -e "Repo: ${YELLOW}$REPO_DIR${NC}"
 
-# --- 1. Enlaces repo -> home (cada par es: ruta_del_repo  ruta_del_home) ---
+# --- 1. Enlaces repo -> home (cada par es: ruta_del_repo|ruta_del_home) ---
 LINKS=(
-  "kde/.config/kdeglobals                                   $HOME/.config/kdeglobals"
-  "kde/.config/kwinrc                                       $HOME/.config/kwinrc"
-  "kde/.config/kwinoutputconfig.json                        $HOME/.config/kwinoutputconfig.json"
-  "kde/.config/plasmarc                                     $HOME/.config/plasmarc"
-  "kde/.config/plasma-org.kde.plasma.desktop-appletsrc      $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc"
-  "kde/.config/plasmashellrc                                $HOME/.config/plasmashellrc"
-  "kde/.config/kglobalshortcutsrc                           $HOME/.config/kglobalshortcutsrc"
-  "kde/.local/share/color-schemes/LayanLight.colors         $HOME/.local/share/color-schemes/LayanLight.colors"
-  "kde/.local/share/plasma/look-and-feel/Light Custome v1.1 $HOME/.local/share/plasma/look-and-feel/Light Custome v1.1"
-  "kde/.local/share/plasma/look-and-feel/Darck Custome theme 1 $HOME/.local/share/plasma/look-and-feel/Darck Custome theme 1"
-  "kde/.local/share/plasma/look-and-feel/Otto-Light          $HOME/.local/share/plasma/look-and-feel/Otto-Light"
-  "kde/.local/share/plasma/desktoptheme/Otto-Light           $HOME/.local/share/plasma/desktoptheme/Otto-Light"
-  "kde/.local/share/aurorae/themes/Ant-Dark                  $HOME/.local/share/aurorae/themes/Ant-Dark"
-  "kde/.local/share/aurorae/themes/Layan                     $HOME/.local/share/aurorae/themes/Layan"
-  "kde/.local/share/aurorae/themes/Otto-Light                $HOME/.local/share/aurorae/themes/Otto-Light"
-  "konsole/.local/share/konsole/Breeze.colorscheme           $HOME/.local/share/konsole/Breeze.colorscheme"
-  "konsole/.local/share/konsole/dcloud99.profile             $HOME/.local/share/konsole/dcloud99.profile"
-  "bash/.bashrc                                              $HOME/.bashrc"
+  "kde/.config/kdeglobals|$HOME/.config/kdeglobals"
+  "kde/.config/kwinrc|$HOME/.config/kwinrc"
+  "kde/.config/kwinoutputconfig.json|$HOME/.config/kwinoutputconfig.json"
+  "kde/.config/plasmarc|$HOME/.config/plasmarc"
+  "kde/.config/plasma-org.kde.plasma.desktop-appletsrc|$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc"
+  "kde/.config/plasmashellrc|$HOME/.config/plasmashellrc"
+  "kde/.config/kglobalshortcutsrc|$HOME/.config/kglobalshortcutsrc"
+  "kde/.local/share/color-schemes/LayanLight.colors|$HOME/.local/share/color-schemes/LayanLight.colors"
+  "kde/.local/share/plasma/look-and-feel/Light Custome v1.1|$HOME/.local/share/plasma/look-and-feel/Light Custome v1.1"
+  "kde/.local/share/plasma/look-and-feel/Darck Custome theme 1|$HOME/.local/share/plasma/look-and-feel/Darck Custome theme 1"
+  "kde/.local/share/plasma/look-and-feel/Otto-Light|$HOME/.local/share/plasma/look-and-feel/Otto-Light"
+  "kde/.local/share/plasma/desktoptheme/Otto-Light|$HOME/.local/share/plasma/desktoptheme/Otto-Light"
+  "kde/.local/share/aurorae/themes/Ant-Dark|$HOME/.local/share/aurorae/themes/Ant-Dark"
+  "kde/.local/share/aurorae/themes/Layan|$HOME/.local/share/aurorae/themes/Layan"
+  "kde/.local/share/aurorae/themes/Otto-Light|$HOME/.local/share/aurorae/themes/Otto-Light"
+  "konsole/.local/share/konsole/Breeze.colorscheme|$HOME/.local/share/konsole/Breeze.colorscheme"
+  "konsole/.local/share/konsole/dcloud99.profile|$HOME/.local/share/konsole/dcloud99.profile"
+  "bash/.bashrc|$HOME/.bashrc"
 )
 
 link_file() {
@@ -55,9 +55,10 @@ link_file() {
         fi
         rm "$dst"
     elif [[ -e "$dst" ]]; then
-        mkdir -p "$BACKUP_DIR"
-        mv "$dst" "$BACKUP_DIR/"
-        echo -e "${YELLOW}⇢ Backup de $dst → $BACKUP_DIR/${NC}"
+        local backup_target="$BACKUP_DIR/$1"
+        mkdir -p "$BACKUP_DIR" "$(dirname "$backup_target")"
+        mv "$dst" "$backup_target"
+        echo -e "${YELLOW}⇢ Backup de $dst → $backup_target${NC}"
     fi
 
     local rel
@@ -67,7 +68,8 @@ link_file() {
 }
 
 for pair in "${LINKS[@]}"; do
-    read -r src dst <<< "$pair"
+    src="${pair%%|*}"
+    dst="${pair#*|}"
     link_file "$src" "$dst"
 done
 
