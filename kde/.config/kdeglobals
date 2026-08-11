@@ -140,7 +140,8 @@ LastUsedCustomAccentColor=104,107,111
 [KDE]
 AutomaticLookAndFeel=true
 DefaultDarkLookAndFeel=com.github.vinceliuice.Layan
-LookAndFeelPackage=org.kde.breeze.desktop
+DefaultLightLookAndFeel=Otto-Light
+LookAndFeelPackage=Otto-Light
 contrast=4
 frameContrast=0.2
 
