@@ -138,7 +138,7 @@ ColorSchemeHash=35c73fb379a4940e5f22982a33078640b27cf788
 LastUsedCustomAccentColor=104,107,111
 
 [KDE]
-AutomaticLookAndFeel=true
+AutomaticLookAndFeel=false
 LookAndFeelPackage=org.kde.breeze.desktop
 contrast=4
 frameContrast=0.2
