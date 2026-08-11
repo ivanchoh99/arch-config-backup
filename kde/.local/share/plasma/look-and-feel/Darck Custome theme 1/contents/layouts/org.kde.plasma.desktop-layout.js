@@ -22,7 +22,7 @@ var layout = {
                 },
                 "/Wallpaper/org.kde.image/General": {
                     "DynamicMode": "1",
-                    "Image": "file:///home/dcloud99/Downloads/john-towner-3Kv48NS4WUU-unsplash.jpg",
+                    "Image": "file:///home/dcloud99/dotfiles/kde/wallpapers/john-towner-3Kv48NS4WUU-unsplash.jpg",
                     "SlidePaths": "/home/dcloud99/.local/share/wallpapers/,/usr/share/wallpapers/"
                 }
             },
@@ -40,7 +40,7 @@ var layout = {
                 },
                 "/Wallpaper/org.kde.image/General": {
                     "DynamicMode": "1",
-                    "Image": "file:///home/dcloud99/Downloads/john-towner-3Kv48NS4WUU-unsplash.jpg",
+                    "Image": "file:///home/dcloud99/dotfiles/kde/wallpapers/john-towner-3Kv48NS4WUU-unsplash.jpg",
                     "SlidePaths": "/home/dcloud99/.local/share/wallpapers/,/usr/share/wallpapers/"
                 }
             },

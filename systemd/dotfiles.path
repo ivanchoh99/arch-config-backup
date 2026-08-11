@@ -4,19 +4,14 @@ Description=Vigilar cambios en listas de paquetes
 [Path]
 
 PathChanged= %h/dotfiles/bash/
-PathChanged= %h/dotfiles/git/
 PathChanged= %h/dotfiles/oh-my-posh/
 PathChanged= %h/dotfiles/pkglist/
 PathChanged= %h/dotfiles/systemd/
 PathChanged= %h/dotfiles/konsole/
-PathChanged= %h/dotfiles/kde/.config/kdeglobals
-PathChanged= %h/dotfiles/kde/.config/kwinrc
-PathChanged= %h/dotfiles/kde/.config/plasmarc
+PathChanged= %h/dotfiles/kde/.config/
 PathChanged= %h/dotfiles/kde/.local/
+PathChanged= %h/dotfiles/kde/wallpapers/
 PathChanged= %h/dotfiles/.gitignore
-
-# Vigilamos solo la carpeta de los .txt para evitar bucles
-PathChanged= %h/dotfiles/pkglist/
 
 [Install]
 WantedBy=default.target
