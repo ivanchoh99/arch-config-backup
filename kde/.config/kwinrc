@@ -28,3 +28,4 @@ Scale=1
 [org.kde.kdecoration2]
 BorderSize=None
 BorderSizeAuto=false
+library=org.kde.kwin.aurorae.v2
