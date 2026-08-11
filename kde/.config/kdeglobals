@@ -134,15 +134,14 @@ ForegroundVisited=224,64,251
 
 [General]
 AccentColor=61,174,233
-ColorScheme=LayanLight
 ColorSchemeHash=24b3623ff7af45bf2d001570b05ab2e1de7279be
 LastUsedCustomAccentColor=61,174,233
 
 [KDE]
 AutomaticLookAndFeel=true
 DefaultDarkLookAndFeel=Darck Custome theme 1
-DefaultLightLookAndFeel=Ligth custome v1
-LookAndFeelPackage=Ligth custome v1
+DefaultLightLookAndFeel=Light Custome v1.1
+LookAndFeelPackage=Light Custome v1.1
 contrast=0
 frameContrast=0.2
 
