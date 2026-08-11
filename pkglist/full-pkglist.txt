@@ -61,7 +61,6 @@ podman-compose
 postgresql
 python-pip
 qalculate-qt
-rust
 samsung-unified-driver
 smartmontools
 sof-firmware
