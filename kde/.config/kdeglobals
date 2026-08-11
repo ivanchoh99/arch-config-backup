@@ -138,6 +138,9 @@ ColorScheme=BreezeDark
 ColorSchemeHash=9d38eb71ded8ff549da26d57d7cbab9164da243a
 LastUsedCustomAccentColor=61,174,233
 
+[Icons]
+Theme=Papirus-Dark
+
 [KDE]
 AutomaticLookAndFeel=false
 DefaultDarkLookAndFeel=com.github.vinceliuice.Layan
