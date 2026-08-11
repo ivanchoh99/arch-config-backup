@@ -130,14 +130,11 @@ AccentColor=61,174,233
 ColorSchemeHash=138ee27f48929b9e6fcf82c4364f83111a8afd77
 LastUsedCustomAccentColor=61,174,233
 
-[Icons]
-Theme=Papirus
-
 [KDE]
 AutomaticLookAndFeel=true
 DefaultDarkLookAndFeel=com.github.vinceliuice.Layan
-DefaultLightLookAndFeel=Otto-Light
-LookAndFeelPackage=Otto-Light
+DefaultLightLookAndFeel=Ligth custome v1
+LookAndFeelPackage=Ligth custome v1
 contrast=7
 frameContrast=0.2
 
