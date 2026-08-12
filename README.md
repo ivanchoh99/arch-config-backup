@@ -25,7 +25,7 @@ dotfiles/
 ├── konsole/                  # Perfil y esquema de color de Konsole
 ├── oh-my-posh/
 │   ├── theme/mytheme.omp.json    # Prompt (el que usa .bashrc)
-│   └── font/JetBrainsMono.7z     # Fuente JetBrainsMono Nerd Font
+│   └── font/JetBrainsMono.7z     # Fuente JetBrainsMono Nerd Font (solo familia Mono)
 ├── pkglist/full-pkglist.txt  # Lista de paquetes explícitos (yay -Qqe)
 ├── systemd/                  # Unidades: auto-commit de cambios cada vez que algo se modifica
 ├── auto-save.sh              # Detecta cambios, hace commit y push automático
