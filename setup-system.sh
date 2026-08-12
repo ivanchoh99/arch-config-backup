@@ -3,6 +3,7 @@
 # --- CONFIGURACIÓN DE RUTAS (Basado en tu estructura actual) ---
 SCRIPT_YAY="./yay-install.sh"
 SCRIPT_RESTORE="./restore-package.sh"
+SCRIPT_DEPLOY="./deploy.sh"
 SCRIPT_AUTOSAVE="./auto-save.sh"
 
 # Colores para la terminal
@@ -53,7 +54,23 @@ else
     echo -e "${RED}⚠ Hubo un problema con la base del sistema. Revisa antes de continuar.${NC}"
 fi
 
-# 3. Guardado Inicial / Sincronización
+# 3. Desplegar dotfiles (symlinks repo -> home)
+if [[ $? -eq 0 ]]; then
+    run_step "$SCRIPT_DEPLOY" "Despliegue de dotfiles (symlinks)"
+
+    # 4. Fuente (opcional, si se desplegó)
+    echo -e "\n${BLUE}==========================================${NC}"
+    read -p "¿Deseas instalar la fuente JetBrainsMono Nerd Font? (s/n): " install_fonts
+    if [[ "$install_fonts" =~ ^[sS]$ ]]; then
+        bash "$SCRIPT_DEPLOY" --install-fonts
+    else
+        echo -e "${BLUE}⏭ Omitiendo instalación de fuente...${NC}"
+    fi
+else
+    echo -e "${RED}⚠ Hubo un problema con la base del sistema. Revisa antes de continuar.${NC}"
+fi
+
+# 5. Guardado Inicial / Sincronización
 echo -e "\n${BLUE}==========================================${NC}"
 read -p "¿Deseas ejecutar una sincronización (auto-save) inicial? (s/n): " sync_now
 if [[ "$sync_now" =~ ^[sS]$ ]]; then
