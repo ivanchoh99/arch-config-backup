@@ -200,5 +200,5 @@ tooltipControls=false
 AppletOrder=79
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4,2,desktop:/Propuesta_Actualizacion_Sitio_Web_CNA.md,desktop:/PlanItHub - Explicacion del Codigo.md
+itemsOnDisabledScreens=
 screenMapping=desktop:/PlanItHub - Explicacion del Codigo.md,0,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4,desktop:/Propuesta_Actualizacion_Sitio_Web_CNA.md,0,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4

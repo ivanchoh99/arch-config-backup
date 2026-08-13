@@ -28,6 +28,7 @@ insomnia
 intel-media-driver
 intel-ucode
 jdk21-openjdk
+jdk25-openjdk
 jq
 kcolorscheme
 konsole
