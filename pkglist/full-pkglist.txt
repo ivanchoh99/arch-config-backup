@@ -41,6 +41,7 @@ libva-intel-driver
 linux-firmware
 linux-lts
 linux-lts-headers
+litehtml0.9-debug
 lutris
 mpv
 nano
