@@ -33,6 +33,7 @@ jq
 kcolorscheme
 konsole
 lazydocker
+lazygit
 less
 lib32-nvidia-580xx-utils
 libpulse
@@ -41,7 +42,6 @@ libva-intel-driver
 linux-firmware
 linux-lts
 linux-lts-headers
-litehtml0.9-debug
 lutris
 mpv
 nano
