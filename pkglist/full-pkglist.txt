@@ -80,7 +80,6 @@ vim
 visual-studio-code-bin
 vulkan-intel
 vulkan-nouveau
-wezterm
 wget
 wireplumber
 xdg-utils
