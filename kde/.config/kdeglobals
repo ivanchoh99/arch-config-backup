@@ -138,7 +138,7 @@ ColorSchemeHash=24b3623ff7af45bf2d001570b05ab2e1de7279be
 LastUsedCustomAccentColor=61,174,233
 
 [KDE]
-AutomaticLookAndFeel=true
+AutomaticLookAndFeel=false
 DefaultDarkLookAndFeel=Darck Custome theme 1
 DefaultLightLookAndFeel=Light Custome v1.1
 LookAndFeelPackage=Light Custome v1.1
