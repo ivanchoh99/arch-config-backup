@@ -18,7 +18,7 @@ wallpaperplugin=org.kde.image
 [Containments][1][General]
 changedPositions={"desktop:/Propuesta_Actualizacion_Sitio_Web_CNA.md":["1920x1080","1","0"]}
 lastResolution=1920x1080
-positions={"1920x1080":["2","17","desktop:/Propuesta_Actualizacion_Sitio_Web_CNA.md","1","0","desktop:/PlanItHub - Explicacion del Codigo.md","0","0"]}
+positions={"1920x1080":["2","17","desktop:/PlanItHub - Explicacion del Codigo.md","0","0","desktop:/Propuesta_Actualizacion_Sitio_Web_CNA.md","1","0"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
@@ -200,5 +200,5 @@ tooltipControls=false
 AppletOrder=79
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4,2,desktop:/Propuesta_Actualizacion_Sitio_Web_CNA.md,desktop:/PlanItHub - Explicacion del Codigo.md
+itemsOnDisabledScreens=
 screenMapping=desktop:/Propuesta_Actualizacion_Sitio_Web_CNA.md,0,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4,desktop:/PlanItHub - Explicacion del Codigo.md,0,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4
