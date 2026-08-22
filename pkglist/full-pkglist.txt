@@ -14,6 +14,8 @@ dbeaver
 discord
 dolphin
 efibootmgr
+f3
+f3-debug
 fastfetch
 firefox
 fnm-bin
