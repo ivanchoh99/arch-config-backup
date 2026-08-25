@@ -87,4 +87,5 @@ xdg-utils
 xf86-video-ati
 xf86-video-nouveau
 yay
+zip
 zram-generator
