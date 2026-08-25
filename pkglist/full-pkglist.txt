@@ -22,6 +22,7 @@ fuse-overlayfs
 gimp
 git
 google-chrome
+gradle
 gst-plugin-pipewire
 htop
 insomnia
