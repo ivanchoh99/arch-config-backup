@@ -64,6 +64,8 @@ postgresql
 python-pip
 qalculate-qt
 samsung-unified-driver
+sdkman-bin
+sdkman-bin-debug
 smartmontools
 sof-firmware
 spotify
