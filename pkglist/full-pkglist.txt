@@ -46,9 +46,11 @@ lutris
 mpv
 nano
 network-manager-applet
+npm
 nvidia-580xx-dkms
 nvidia-580xx-utils
 nvidia-prime
+nvm
 obs-studio
 oh-my-posh
 openssh
@@ -86,6 +88,7 @@ wireplumber
 xdg-utils
 xf86-video-ati
 xf86-video-nouveau
+yarn
 yay
 zip
 zram-generator
