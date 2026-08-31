@@ -18,7 +18,7 @@ wallpaperplugin=org.kde.image
 [Containments][1][General]
 changedPositions={"desktop:/Cuantas.ods":["1920x1080","0","0"],"desktop:/Propuesta_Actualizacion_Sitio_Web_CNA.md":["1920x1080","1","0"]}
 lastResolution=1920x1080
-positions={"1920x1080":["1","17","desktop:/Cuantas.ods","0","0","desktop:/Propuesta_Actualizacion_Sitio_Web_CNA.md","1","0","desktop:/lu113992azcua.tmp","0","0","desktop:/PlanItHub - Explicacion del Codigo.md","0","0"]}
+positions={"1920x1080":["1","17","desktop:/lu113992azcua.tmp","0","0","desktop:/PlanItHub - Explicacion del Codigo.md","0","0","desktop:/Propuesta_Actualizacion_Sitio_Web_CNA.md","1","0","desktop:/Cuantas.ods","0","0"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
