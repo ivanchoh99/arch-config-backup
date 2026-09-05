@@ -61,7 +61,12 @@ plasma-meta
 podman
 podman-compose
 postgresql
+python-inflect
+python-installer
 python-pip
+python-pydantic
+python-pyqt6
+python-pyqt6-webengine
 qalculate-qt
 samsung-unified-driver
 sdkman-bin
