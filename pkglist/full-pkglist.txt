@@ -61,12 +61,7 @@ plasma-meta
 podman
 podman-compose
 postgresql
-python-inflect
-python-installer
 python-pip
-python-pydantic
-python-pyqt6
-python-pyqt6-webengine
 qalculate-qt
 samsung-unified-driver
 sdkman-bin
@@ -92,5 +87,6 @@ xdg-utils
 xf86-video-ati
 xf86-video-nouveau
 yay
+zapzap
 zip
 zram-generator
