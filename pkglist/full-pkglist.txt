@@ -30,7 +30,6 @@ intel-ucode
 jdk21-openjdk
 jdk25-openjdk
 jq
-kate
 kcolorscheme
 konsole
 lazydocker
