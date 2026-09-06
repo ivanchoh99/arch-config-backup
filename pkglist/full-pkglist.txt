@@ -19,6 +19,7 @@ fastfetch
 firefox
 fnm-bin
 fuse-overlayfs
+gedit
 gimp
 git
 google-chrome
