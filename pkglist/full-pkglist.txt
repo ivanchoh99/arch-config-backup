@@ -13,6 +13,8 @@ cups-pk-helper
 dbeaver
 discord
 dolphin
+edk2-aarch64
+edk2-ovmf
 efibootmgr
 f3
 fastfetch
@@ -63,6 +65,8 @@ podman-compose
 postgresql
 python-pip
 qalculate-qt
+qemu-system-aarch64
+qemu-system-x86
 samsung-unified-driver
 sdkman-bin
 smartmontools
@@ -78,6 +82,7 @@ timeshift
 tree
 ufw
 vim
+virtiofsd
 visual-studio-code-bin
 vulkan-intel
 vulkan-nouveau
