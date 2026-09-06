@@ -7,7 +7,6 @@ base-devel
 bitwarden
 bluez
 bluez-utils
-claude-desktop
 cups
 cups-pdf
 cups-pk-helper
