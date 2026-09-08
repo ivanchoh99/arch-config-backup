@@ -33,6 +33,7 @@ jdk21-openjdk
 jdk25-openjdk
 jq
 kcolorscheme
+kdoctools
 konsole
 lazydocker
 lazygit
