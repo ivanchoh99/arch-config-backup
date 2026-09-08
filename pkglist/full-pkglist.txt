@@ -33,8 +33,6 @@ jdk21-openjdk
 jdk25-openjdk
 jq
 kcolorscheme
-kdoctools
-kimageannotator
 konsole
 lazydocker
 lazygit
@@ -56,7 +54,6 @@ nvidia-prime
 obs-studio
 oh-my-posh
 openssh
-packagekit-qt6
 papirus-icon-theme
 pipewire
 pipewire-alsa
