@@ -64,6 +64,7 @@ podman
 podman-compose
 postgresql
 python-pip
+python311
 qalculate-qt
 samsung-unified-driver
 sdkman-bin
@@ -77,7 +78,6 @@ system-config-printer
 telegram-desktop
 thunderbird
 timeshift
-tk
 tree
 ufw
 vim
