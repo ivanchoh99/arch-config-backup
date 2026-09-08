@@ -200,5 +200,5 @@ tooltipControls=false
 AppletOrder=79
 
 [ScreenMapping]
-itemsOnDisabledScreens=
-screenMapping=desktop:/Cuantas.ods,0,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4
+itemsOnDisabledScreens=0,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4,1,desktop:/Cuantas.ods
+screenMapping=desktop:/Cuantas.ods,1,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4
