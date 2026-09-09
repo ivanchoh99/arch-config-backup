@@ -13,7 +13,6 @@ cups-pdf
 cups-pk-helper
 dbeaver
 discord
-docbook-xsl
 dolphin
 efibootmgr
 f3
@@ -49,7 +48,6 @@ lutris
 mpv
 nano
 network-manager-applet
-ninja
 nvidia-580xx-dkms
 nvidia-580xx-utils
 nvidia-prime
