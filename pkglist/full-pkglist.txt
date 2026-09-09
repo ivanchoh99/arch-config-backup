@@ -7,7 +7,7 @@ base-devel
 bitwarden
 bluez
 bluez-utils
-catdoc
+boost
 claude-desktop
 cups
 cups-pdf
@@ -30,16 +30,17 @@ htop
 insomnia
 intel-media-driver
 intel-ucode
+intltool
 jdk21-openjdk
 jdk25-openjdk
 jq
 kcolorscheme
+kdoctools
 konsole
 lazydocker
 lazygit
 less
 lib32-nvidia-580xx-utils
-libappimage
 libpulse
 libreoffice-still
 libva-intel-driver
