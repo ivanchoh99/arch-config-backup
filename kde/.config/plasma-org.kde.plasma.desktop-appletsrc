@@ -62,8 +62,11 @@ popupHeight=451
 popupWidth=560
 
 [Containments][27][Applets][31][Configuration][Appearance]
+autoFontAndSize=false
 customDateFormat=dddd, MMM d, yyyy \s
 dateFormat=longDate
+fontFamily=Noto Sans
+fontWeight=400
 showSeconds=Always
 
 [Containments][27][Applets][31][Configuration][ConfigDialog]
