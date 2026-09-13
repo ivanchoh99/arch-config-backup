@@ -136,6 +136,10 @@ plugin=org.kde.plasma.brightness
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
+[Containments][82][Applets][86][Applets][106]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
 [Containments][82][Applets][86][Applets][87]
 immutability=1
 plugin=org.kde.plasma.vault
