@@ -27,6 +27,9 @@ iconSpacing=0
 launchers=preferred://filemanager,applications:firefox.desktop,applications:org.kde.konsole.desktop,applications:spotify.desktop,applications:org.mozilla.Thunderbird.desktop
 tooltipControls=false
 
+[Containments][101][General]
+AppletOrder=102
+
 [Containments][80]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
@@ -180,6 +183,9 @@ plugin=org.kde.plasma.printmanager
 [Containments][82][Applets][86][Applets][98]
 immutability=1
 plugin=org.kde.plasma.volume
+
+[Containments][82][Applets][86][Applets][98][Configuration][General]
+migrated=true
 
 [Containments][82][Applets][86][Applets][99]
 immutability=1
