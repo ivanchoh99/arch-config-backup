@@ -130,6 +130,9 @@ plugin=org.kde.plasma.printmanager
 immutability=1
 plugin=org.kde.plasma.volume
 
+[Containments][109][Applets][113][Applets][125][Configuration][General]
+migrated=true
+
 [Containments][109][Applets][113][Applets][126]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
@@ -145,6 +148,10 @@ plugin=org.kde.plasma.battery
 [Containments][109][Applets][113][Applets][132]
 immutability=1
 plugin=org.kde.plasma.brightness
+
+[Containments][109][Applets][113][Applets][133]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
 
 [Containments][109][Applets][113][General]
 extraItems=org.kde.plasma.vault,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.weather,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller
@@ -191,6 +198,9 @@ DialogWidth=810
 iconSpacing=0
 launchers=preferred://filemanager,applications:firefox.desktop,applications:org.kde.konsole.desktop,applications:spotify.desktop,applications:org.mozilla.Thunderbird.desktop
 tooltipControls=false
+
+[Containments][128][General]
+AppletOrder=129
 
 [ScreenMapping]
 itemsOnDisabledScreens=
