@@ -203,5 +203,5 @@ knownItems=org.kde.plasma.vault,org.kde.plasma.battery,org.kde.plasma.brightness
 AppletOrder=83;84;85;86;100
 
 [ScreenMapping]
-itemsOnDisabledScreens=
+itemsOnDisabledScreens=0,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4,2,desktop:/Certification AWS,desktop:/Cuantas.ods
 screenMapping=desktop:/Certification AWS,0,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4,desktop:/Cuantas.ods,0,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4
