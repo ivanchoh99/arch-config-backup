@@ -203,5 +203,5 @@ tooltipControls=false
 AppletOrder=129
 
 [ScreenMapping]
-itemsOnDisabledScreens=
-screenMapping=desktop:/Cuantas.ods,0,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4,desktop:/Certification AWS,0,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4
+itemsOnDisabledScreens=0,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4,2,desktop:/Cuantas.ods,desktop:/Certification AWS
+screenMapping=desktop:/Certification AWS,0,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4,desktop:/Cuantas.ods,0,16c43cbf-ad63-4dfb-af0a-30658a4f3ba4
