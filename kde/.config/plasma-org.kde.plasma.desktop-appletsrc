@@ -19,7 +19,7 @@ wallpaperplugin=org.kde.image
 [Containments][107][General]
 changedPositions={"desktop:/Cuantas.ods":["1920x1080","0","0"]}
 lastResolution=1920x1080
-positions={"1920x1080":["1","17","desktop:/Propuesta_Actualizacion_Sitio_Web_CNA.md","1","0","desktop:/Certification AWS","0","0","desktop:/PlanItHub - Explicacion del Codigo.md","0","0","desktop:/lu17623blkrv.tmp","0","1","desktop:/Cuantas.ods","0","0"]}
+positions={"1920x1080":["1","17","desktop:/lu17623blkrv.tmp","0","1","desktop:/Cuantas.ods","0","0","desktop:/Certification AWS","0","0","desktop:/PlanItHub - Explicacion del Codigo.md","0","0","desktop:/Propuesta_Actualizacion_Sitio_Web_CNA.md","1","0"]}
 sortMode=-1
 
 [Containments][107][Wallpaper][org.kde.image][General]
