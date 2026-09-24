@@ -8,7 +8,6 @@ PathChanged= %h/dotfiles/oh-my-posh/
 PathChanged= %h/dotfiles/pkglist/
 PathChanged= %h/dotfiles/systemd/
 PathChanged= %h/dotfiles/konsole/
-PathChanged= %h/dotfiles/kde/.config/
 PathChanged= %h/dotfiles/kde/.local/
 PathChanged= %h/dotfiles/kde/wallpapers/
 PathChanged= %h/dotfiles/.gitignore
