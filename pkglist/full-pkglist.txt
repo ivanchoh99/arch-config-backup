@@ -63,6 +63,7 @@ plasma-meta
 podman
 podman-compose
 postgresql
+python-installer
 python-pip
 python311
 qalculate-qt
