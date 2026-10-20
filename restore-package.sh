@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --- CONFIGURACIÓN ---
-REPO_DIR="$HOME/dotfiles"
+REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
 FILE_ALL="$REPO_DIR/pkglist/full-pkglist.txt"
 
 # Colores para la terminal
@@ -27,8 +27,8 @@ if [[ ! -f "$FILE_ALL" ]]; then
 fi
 
 # --- 2. SINCRONIZACIÓN DE REPOSITORIOS ---
-echo -e "${BLUE}🔄 Actualizando bases de datos de paquetes...${NC}"
-yay -Sy
+echo -e "${BLUE}🔄 Actualizando bases de datos y sistema (evita partial upgrade)...${NC}"
+yay -Syu
 
 # --- 3. INSTALACIÓN MASIVA ---
 echo -e "${BLUE}📦 Instalando paquetes desde la lista...${NC}"

@@ -1,0 +1,16 @@
+{
+    "KPackageStructure": "Plasma/Wallpaper",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": ""
+            }
+        ],
+        "Description": "Fondo de pantalla personalizado de los dotfiles",
+        "Id": "Dotfiles",
+        "License": "CC-BY-SA-4.0",
+        "Name": "Dotfiles",
+        "Website": ""
+    }
+}

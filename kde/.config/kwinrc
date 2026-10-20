@@ -1,3 +1,6 @@
+[DesktopSwitcher]
+LayoutName=org.kde.breeze.desktop
+
 [Desktops]
 Id_1=563e7562-988b-4c75-a15a-91d0b11b8d3a
 Number=1
@@ -5,6 +8,10 @@ Rows=1
 
 [Effect-overview]
 BorderActivate=9
+
+[Tiling][563e7562-988b-4c75-a15a-91d0b11b8d3a][]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][563e7562-988b-4c75-a15a-91d0b11b8d3a][01d16132-7c74-4118-9843-0f69bba1eaf3]
 padding=4
@@ -18,9 +25,20 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][563e7562-988b-4c75-a15a-91d0b11b8d3a][a0d66a77-3c7a-4c19-9f1a-64d12235fdc5]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][563e7562-988b-4c75-a15a-91d0b11b8d3a][d4a2c06b-c5a7-4ded-bfee-dd0ee56decbc]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][563e7562-988b-4c75-a15a-91d0b11b8d3a][d8515103-4f15-4e4f-a156-3a4d7a26b88a]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[WindowSwitcher]
+LayoutName=org.kde.breeze.desktop
 
 [Xwayland]
 Scale=1

@@ -58,7 +58,7 @@ systemctl --user enable --now dotfiles.path
 
 ## Notas
 
-- **Rutas hardcodeadas**: la config usa `$HOME=/home/dcloud99` y el repo vive en `~/dotfiles`. Si cambias de usuario o ruta, ajusta `deploy.sh` y las rutas de `kde/.config/*` (wallpaper).
+- **Portátil entre usuarios**: las rutas usan `$HOME` y el repo se asume en `~/dotfiles`. El wallpaper es un paquete de fondos de Plasma (`Dotfiles`) resuelto por nombre, sin rutas absolutas, así que funciona con cualquier usuario.
 - **Monitores**: `kwinoutputconfig.json` contiene EDIDs/UUIDs de pantallas concretas; el layout solo se recupera con los mismos monitores.
 - **Seguridad**: no commitear tokens o claves en los temas (ej. segmentos de oh-my-posh tipo "strava"). Usa variables de entorno.
 - **Auto-save**: `systemd/dotfiles.path` vigila `kde/.config/`, `kde/.local/`, `kde/wallpapers/`, etc. y `auto-save.sh` genera el commit con los paquetes nuevos/eliminados y configs modificadas.

@@ -4,7 +4,7 @@ export DISPLAY=:0
 export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$(id -u)/bus
 
 # --- CONFIGURACIÓN ---
-REPO_DIR="$HOME/dotfiles"
+REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
 PKG_DIR="$REPO_DIR/pkglist"
 LOG_FILE="$HOME/.cache/dotfiles_autoguardado.log"
 
