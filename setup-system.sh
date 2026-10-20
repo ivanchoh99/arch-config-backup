@@ -169,6 +169,20 @@ else
     record "Sincronización automática (systemd)" "omitido"
 fi
 
+# 8. Configuración de Git + SSH (identidad, clave y remote SSH)
+echo -e "\n${BLUE}==========================================${NC}"
+read -p "¿Deseas configurar Git y la clave SSH (recomendado para el auto-save)? (s/n): " setup_git
+if [[ "$setup_git" =~ ^[sS]$ ]]; then
+    if bash "$SCRIPT_DEPLOY" --setup-git; then
+        record "Configuración de Git y SSH" "ok"
+    else
+        record "Configuración de Git y SSH" "fallido"
+    fi
+else
+    echo -e "${BLUE}⏭ Omitiendo configuración de Git/SSH...${NC}"
+    record "Configuración de Git y SSH" "omitido"
+fi
+
 # --- RESUMEN FINAL (honesto) ---
 echo -e "\n${BLUE}==========================================${NC}"
 echo -e "${BLUE}   RESUMEN FINAL                          ${NC}"

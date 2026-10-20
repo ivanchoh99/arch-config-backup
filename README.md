@@ -50,15 +50,21 @@ bash ~/dotfiles/restore-package.sh
 # 4. Desplegar dotfiles (symlinks + fuente)
 bash ~/dotfiles/deploy.sh --install-fonts
 
-# 5. Reactivar el auto-save
+# 5. Configurar Git y SSH (identidad, clave y remote SSH) — necesario para el auto-save
+bash ~/dotfiles/deploy.sh --setup-git
+
+# 6. Reactivar el auto-save
 systemctl --user enable --now dotfiles.path
 
-# 6. Reiniciar sesión de KDE
+# 7. Reiniciar sesión de KDE
 ```
+
+> También puedes ejecutar `bash ~/dotfiles/setup-system.sh`, que hace los pasos 2–6 de
+> forma guiada (incluye la configuración de Git/SSH como paso 8).
 
 ## Notas
 
 - **Portátil entre usuarios**: las rutas usan `$HOME` y el repo se asume en `~/dotfiles`. El wallpaper es un paquete de fondos de Plasma (`Dotfiles`) resuelto por nombre, sin rutas absolutas, así que funciona con cualquier usuario.
 - **Monitores**: `kwinoutputconfig.json` contiene EDIDs/UUIDs de pantallas concretas; el layout solo se recupera con los mismos monitores.
 - **Seguridad**: no commitear tokens o claves en los temas (ej. segmentos de oh-my-posh tipo "strava"). Usa variables de entorno.
-- **Auto-save**: `systemd/dotfiles.path` vigila `kde/.config/`, `kde/.local/`, `kde/wallpapers/`, etc. y `auto-save.sh` genera el commit con los paquetes nuevos/eliminados y configs modificadas.
+- **Auto-save**: `systemd/dotfiles.path` vigila `kde/.config/`, `kde/.local/`, `kde/wallpapers/`, etc. y `auto-save.sh` genera el commit con los paquetes nuevos/eliminados y configs modificadas. Requiere identidad de git y acceso no interactivo a GitHub: usa `bash deploy.sh --setup-git` para configurarlos (identidad global + clave SSH + remote SSH).

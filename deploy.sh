@@ -1,10 +1,11 @@
 #!/bin/bash
 
 # --- Despliegue de dotfiles: crea symlinks repo -> home ---
-# Uso: bash deploy.sh [--install-fonts] [--apply-look]
+# Uso: bash deploy.sh [--install-fonts] [--apply-look] [--setup-git]
 #   (sin flags)      -> solo enlaza los dotfiles
 #   --install-fonts  -> SOLO instala la fuente JetBrainsMono Nerd Font
 #   --apply-look     -> SOLO aplica el aspecto visual (tema, iconos, cursor, wallpaper)
+#   --setup-git      -> SOLO configura git (identidad), genera clave SSH si falta y usa remote SSH
 # Backups de archivos existentes se guardan en ~/.dotfiles-backup-<fecha>/
 
 set -uo pipefail   # sin -e: un archivo faltante no debe abortar todo el despliegue
@@ -22,13 +23,21 @@ NC='\033[0m'
 WANT_LINKS=1
 WANT_FONTS=0
 WANT_LOOK=0
+WANT_GIT=0
 for arg in "$@"; do
     case "$arg" in
         --install-fonts) WANT_FONTS=1; WANT_LINKS=0 ;;
         --apply-look)    WANT_LOOK=1; WANT_LINKS=0 ;;
+        --setup-git)     WANT_GIT=1; WANT_LINKS=0 ;;
         *) echo -e "${YELLOW}⚠ Opción desconocida ignorada: $arg${NC}" ;;
     esac
 done
+
+# Identidad usada por defecto para los commits (datos del historial del repo).
+# Puedes sobreescribirla exportando GIT_USER_NAME / GIT_USER_EMAIL antes de ejecutar.
+GIT_USER_NAME="${GIT_USER_NAME:-Ivan H Carvajal A}"
+GIT_USER_EMAIL="${GIT_USER_EMAIL:-ivanchoh99@gmail.com}"
+SSH_KEY="$HOME/.ssh/id_ed25519"
 
 # ============================================================
 # 1. ENLACES repo -> home
@@ -207,4 +216,85 @@ if [[ $WANT_LOOK -eq 1 ]]; then
 
     echo -e "${GREEN}✓ Aspecto visual replicado: tema, iconos, cursor, decoración, plasma theme y wallpaper.${NC}"
     echo -e "${YELLOW}  Reinicia la sesión de KDE si algún cambio no se refleja en caliente.${NC}"
+fi
+
+# ============================================================
+# 4. CONFIGURACIÓN DE GIT + CLAVE SSH (aislada con --setup-git)
+# ============================================================
+if [[ $WANT_GIT -eq 1 ]]; then
+    echo -e "${BLUE}=== Configuración de Git y SSH ===${NC}"
+
+    # --- 4.1 Identidad de git (global) ---
+    current_name="$(git config --global user.name 2>/dev/null)"
+    current_email="$(git config --global user.email 2>/dev/null)"
+
+    if [[ -n "$current_name" && -n "$current_email" ]]; then
+        echo -e "${YELLOW}↺ Identidad ya configurada: $current_name <$current_email>${NC}"
+    else
+        # En un terminal interactivo se permite confirmar/cambiar; si no, usa los defaults.
+        if [[ -t 0 ]]; then
+            read -p "Nombre para git [${GIT_USER_NAME}]: " in_name
+            read -p "Email para git  [${GIT_USER_EMAIL}]: " in_email
+            [[ -n "$in_name"  ]] && GIT_USER_NAME="$in_name"
+            [[ -n "$in_email" ]] && GIT_USER_EMAIL="$in_email"
+        fi
+
+        if [[ -z "$GIT_USER_NAME" || -z "$GIT_USER_EMAIL" ]]; then
+            echo -e "${RED}✗ Falta el nombre o el email. Exporta GIT_USER_NAME y GIT_USER_EMAIL.${NC}"
+            exit 1
+        fi
+
+        git config --global user.name  "$GIT_USER_NAME"
+        git config --global user.email "$GIT_USER_EMAIL"
+        echo -e "${GREEN}✓ Identidad configurada: $GIT_USER_NAME <$GIT_USER_EMAIL>${NC}"
+    fi
+
+    # --- 4.2 Clave SSH (genera id_ed25519 si no existe) ---
+    mkdir -p "$HOME/.ssh" && chmod 700 "$HOME/.ssh"
+
+    if [[ -f "$SSH_KEY" ]]; then
+        echo -e "${YELLOW}↺ Clave SSH ya existe: $SSH_KEY${NC}"
+    else
+        echo -e "${BLUE}⇢ Generando nueva clave SSH (ed25519) sin passphrase...${NC}"
+        if ssh-keygen -t ed25519 -N "" -C "$GIT_USER_EMAIL" -f "$SSH_KEY" >/dev/null; then
+            echo -e "${GREEN}✓ Clave generada: $SSH_KEY${NC}"
+        else
+            echo -e "${RED}✗ No se pudo generar la clave SSH.${NC}"
+            exit 1
+        fi
+    fi
+    chmod 600 "$SSH_KEY"; chmod 644 "$SSH_KEY.pub"
+
+    # --- 4.3 Remote en SSH ---
+    remote_url="$(git remote get-url origin 2>/dev/null || true)"
+    if [[ -z "$remote_url" ]]; then
+        echo -e "${YELLOW}⚠ No hay remote 'origin' en este repo; no se modifica.${NC}"
+    elif [[ "$remote_url" == https://github.com/* ]]; then
+        ssh_url="git@github.com:${remote_url#https://github.com/}"
+        git remote set-url origin "$ssh_url"
+        echo -e "${GREEN}✓ Remote cambiado a SSH: $ssh_url${NC}"
+    elif [[ "$remote_url" == git@github.com:* ]]; then
+        echo -e "${YELLOW}↺ El remote ya usa SSH: $remote_url${NC}"
+    else
+        echo -e "${YELLOW}↺ Remote no reconocido, se deja igual: $remote_url${NC}"
+    fi
+
+    # --- 4.4 Verificación e instrucciones ---
+    echo -e "${BLUE}--- Clave pública (añádela en GitHub) ---${NC}"
+    cat "$SSH_KEY.pub"
+
+    echo -e "${BLUE}⇢ Probando autenticación con GitHub...${NC}"
+    # GitHub cierra la sesión con exit 1 aunque la autenticación sea correcta,
+    # así que inspeccionamos el mensaje en vez del código de salida.
+    ssh_out="$(ssh -o StrictHostKeyChecking=accept-new -o BatchMode=yes -T git@github.com 2>&1 || true)"
+    if grep -q "successfully authenticated" <<<"$ssh_out"; then
+        echo -e "${GREEN}✓ GitHub ya reconoce tu clave. Todo listo.${NC}"
+    else
+        echo -e "${YELLOW}⚠ GitHub aún no reconoce esta clave.${NC}"
+        echo -e "${YELLOW}  Añádela manualmente en:${NC}"
+        echo -e "    ${BLUE}https://github.com/settings/ssh/new${NC}"
+        echo -e "${YELLOW}  (o con gh:  gh ssh-key add \"$SSH_KEY.pub\" --title \"${HOSTNAME:-$(cat /proc/sys/kernel/hostname 2>/dev/null || echo arch)}\")${NC}"
+    fi
+
+    echo -e "${GREEN}✓ Configuración de Git y SSH completada.${NC}"
 fi
