@@ -15,7 +15,6 @@ dbeaver
 discord
 dolphin
 efibootmgr
-egl-wayland2
 f3
 fastfetch
 firefox
@@ -65,6 +64,7 @@ pnpm
 podman
 podman-compose
 postgresql
+python-installer
 python-pip
 python311
 qalculate-qt
