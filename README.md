@@ -62,3 +62,5 @@ systemctl --user enable --now dotfiles.path
 - **Monitores**: `kwinoutputconfig.json` contiene EDIDs/UUIDs de pantallas concretas; el layout solo se recupera con los mismos monitores.
 - **Seguridad**: no commitear tokens o claves en los temas (ej. segmentos de oh-my-posh tipo "strava"). Usa variables de entorno.
 - **Auto-save**: `systemd/dotfiles.path` vigila `kde/.config/`, `kde/.local/`, `kde/wallpapers/`, etc. y `auto-save.sh` genera el commit con los paquetes nuevos/eliminados y configs modificadas.
+
+<!-- autosave test 1792539402 -->
