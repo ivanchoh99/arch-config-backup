@@ -12,6 +12,12 @@ PathChanged= %h/dotfiles/kde/.local/
 PathChanged= %h/dotfiles/kde/.config/
 PathChanged= %h/dotfiles/kde/wallpapers/
 PathChanged= %h/dotfiles/.gitignore
+PathChanged= %h/dotfiles/auto-save.sh
+PathChanged= %h/dotfiles/deploy.sh
+PathChanged= %h/dotfiles/restore-package.sh
+PathChanged= %h/dotfiles/setup-system.sh
+PathChanged= %h/dotfiles/yay-install.sh
+PathChanged= %h/dotfiles/README.md
 
 [Install]
 WantedBy=default.target
