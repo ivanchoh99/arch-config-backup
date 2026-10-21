@@ -1,7 +1,25 @@
 *.ttf
 .env
+.env.*
 *.svg
 *.svgz
 !kde/**/*.svg
 !kde/**/*.svgz
 kde/.config/plasma-org.kde.plasma.desktop-appletsrc
+
+# --- Guardas de seguridad: nunca versionar credenciales ---
+*.key
+*.pem
+*.p12
+*.pfx
+*.ovpn
+id_rsa*
+id_ed25519*
+.netrc
+.npmrc
+.pypirc
+credentials*
+*token*
+*secret*
+*apikey*
+*api_key*
