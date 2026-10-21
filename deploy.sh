@@ -284,9 +284,19 @@ if [[ $WANT_GIT -eq 1 ]]; then
     cat "$SSH_KEY.pub"
 
     echo -e "${BLUE}⇢ Probando autenticación con GitHub...${NC}"
+    # Verificamos la host key de GitHub con su huella conocida antes de conectar,
+    # en lugar de aceptar ciegamente la primera clave (StrictHostKeyChecking=accept-new).
+    GH_ED25519="github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl"
+    KNOWN_HOSTS="$HOME/.ssh/known_hosts"
+    if ! grep -qF "github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl" "$KNOWN_HOSTS" 2>/dev/null; then
+        echo "$GH_ED25519" >> "$KNOWN_HOSTS"
+        chmod 600 "$KNOWN_HOSTS"
+        echo -e "${GREEN}  ✓ Host key de GitHub añadida a known_hosts (huella verificada).${NC}"
+    fi
+
     # GitHub cierra la sesión con exit 1 aunque la autenticación sea correcta,
     # así que inspeccionamos el mensaje en vez del código de salida.
-    ssh_out="$(ssh -o StrictHostKeyChecking=accept-new -o BatchMode=yes -T git@github.com 2>&1 || true)"
+    ssh_out="$(ssh -o StrictHostKeyChecking=yes -o BatchMode=yes -T git@github.com 2>&1 || true)"
     if grep -q "successfully authenticated" <<<"$ssh_out"; then
         echo -e "${GREEN}✓ GitHub ya reconoce tu clave. Todo listo.${NC}"
     else

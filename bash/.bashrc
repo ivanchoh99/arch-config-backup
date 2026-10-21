@@ -9,8 +9,14 @@ alias grep='grep --color=auto'
 export TERM=xterm-256color
 
 # PATH Inicial
+# Seguridad: los directorios del sistema conservan prioridad sobre los de
+# usuario/gestores; así un binario colocado en ~/.local/bin no suplanta a los
+# binarios del sistema.
 export PNPM_HOME="$HOME/.local/share/pnpm"
-export PATH="$PNPM_HOME:$PATH"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PATH:$PNPM_HOME" ;;
+esac
 
 eval "$(oh-my-posh init bash --config ~/dotfiles/oh-my-posh/theme/mytheme.omp.json)"
 
@@ -22,16 +28,11 @@ export PATH=$JAVA_HOME/bin:$PATH
 eval "$(fnm env --use-on-cd)"
 
 
-# pnpm
-export PNPM_HOME="$HOME/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-
 export ANDROID_HOME=$HOME/Android/Sdk
-export PATH="$HOME/.local/bin:$PATH"
+case ":$PATH:" in
+  *":$HOME/.local/bin:"*) ;;
+  *) export PATH="$PATH:$HOME/.local/bin" ;;
+esac
 export DOCKER_HOST=unix://$XDG_RUNTIME_DIR/podman/podman.sock
 
 
