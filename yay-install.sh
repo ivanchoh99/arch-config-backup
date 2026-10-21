@@ -14,6 +14,17 @@ if command -v yay &> /dev/null; then
     exit 0
 fi
 
+# Verificar herramientas necesarias antes de continuar
+if ! command -v sudo &> /dev/null; then
+    echo -e "${RED}❌ 'sudo' no está disponible. Es necesario para instalar dependencias.${NC}"
+    exit 1
+fi
+
+if ! command -v git &> /dev/null; then
+    echo -e "${RED}❌ 'git' no está instalado y es necesario para clonar el AUR.${NC}"
+    exit 1
+fi
+
 # --- 2. INSTALAR DEPENDENCIAS ---
 # base-devel y git son obligatorios para clonar y compilar paquetes de AUR
 echo -e "${BLUE}📦 Instalando dependencias necesarias (base-devel y git)...${NC}"
@@ -25,7 +36,8 @@ fi
 
 # --- 3. CREAR ENTORNO TEMPORAL ---
 # Usamos mktemp para crear una carpeta temporal segura en /tmp que se borrará al reiniciar
-TEMP_DIR=$(mktemp -d)
+TEMP_DIR=$(mktemp -d) || { echo -e "${RED}❌ No se pudo crear el directorio temporal.${NC}"; exit 1; }
+trap 'rm -rf "$TEMP_DIR"' EXIT
 echo -e "${BLUE}📂 Usando directorio temporal: $TEMP_DIR${NC}"
 cd "$TEMP_DIR" || exit 1
 
