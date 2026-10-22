@@ -8,6 +8,7 @@ breeze-cursors
 breeze-gtk
 breeze-plymouth
 cups
+discord
 discover
 drkonqi
 efibootmgr
