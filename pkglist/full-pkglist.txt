@@ -15,6 +15,7 @@ efibootmgr
 firefox
 flatpak-kcm
 fnm-bin
+fuse-overlayfs
 git
 gnome-calculator
 htop
@@ -90,6 +91,9 @@ plasma-workspace-wallpapers
 plasma5support
 plymouth-kcm
 pnpm
+podman
+podman-compose
+podman-docker
 polkit-kde-agent
 powerdevil
 print-manager
