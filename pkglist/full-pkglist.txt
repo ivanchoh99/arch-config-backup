@@ -20,6 +20,8 @@ gnome-calculator
 htop
 intel-media-driver
 intel-ucode
+java-environment-common
+jdk25-openjdk
 kactivitymanagerd
 kde-cli-tools
 kde-gtk-config
