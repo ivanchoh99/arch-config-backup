@@ -107,7 +107,7 @@ sudo
 systemsettings
 union
 vim
-visual-studio-code-electron-bin
+visual-studio-code-bin
 vulkan-intel
 vulkan-nouveau
 vulkan-radeon
