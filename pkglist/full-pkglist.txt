@@ -30,7 +30,6 @@ kdecoration
 kdeplasma-addons
 kglobalacceld
 kinfocenter
-kmail
 kmenuedit
 knighttime
 konsole
