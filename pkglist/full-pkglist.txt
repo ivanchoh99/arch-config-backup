@@ -106,6 +106,7 @@ spotify
 steam
 sudo
 systemsettings
+thunderbird
 union
 vim
 visual-studio-code-bin
