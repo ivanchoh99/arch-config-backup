@@ -2,7 +2,6 @@
 aurorae
 base
 base-devel
-betterbird-bin
 bluedevil
 breeze
 breeze-cursors
