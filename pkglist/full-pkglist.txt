@@ -10,6 +10,7 @@ breeze-plymouth
 cups
 discord
 discover
+dolphin
 drkonqi
 efibootmgr
 firefox
@@ -56,7 +57,6 @@ linux-headers
 mesa
 milou
 nano
-nautilus
 nvidia-580xx-dkms
 nvidia-580xx-utils
 nvidia-prime
