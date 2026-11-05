@@ -54,6 +54,7 @@ libva-intel-driver
 linux
 linux-firmware
 linux-headers
+lutris
 mesa
 milou
 nano
