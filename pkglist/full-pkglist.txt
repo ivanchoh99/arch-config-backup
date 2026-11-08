@@ -98,6 +98,7 @@ podman-docker
 polkit-kde-agent
 powerdevil
 print-manager
+python-pip
 qqc2-breeze-style
 sddm-kcm
 smartmontools
