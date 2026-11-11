@@ -9,6 +9,7 @@ breeze-cursors
 breeze-gtk
 breeze-plymouth
 cups
+curseforge
 discord
 discover
 dolphin
