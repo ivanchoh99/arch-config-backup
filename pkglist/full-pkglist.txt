@@ -21,6 +21,7 @@ fnm-bin
 fuse-overlayfs
 git
 gnome-calculator
+google-chrome
 htop
 intel-media-driver
 intel-ucode
