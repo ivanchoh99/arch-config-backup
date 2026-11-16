@@ -35,6 +35,7 @@ kdecoration
 kdeplasma-addons
 kglobalacceld
 kinfocenter
+kiro-ide
 kmenuedit
 knighttime
 konsole
