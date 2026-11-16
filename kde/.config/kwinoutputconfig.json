@@ -131,7 +131,7 @@
                 "lidClosed": false,
                 "outputs": [
                     {
-                        "enabled": false,
+                        "enabled": true,
                         "outputIndex": 0,
                         "position": {
                             "x": 0,
@@ -144,7 +144,7 @@
                         "enabled": true,
                         "outputIndex": 1,
                         "position": {
-                            "x": 0,
+                            "x": 1920,
                             "y": 0
                         },
                         "priority": 1,
