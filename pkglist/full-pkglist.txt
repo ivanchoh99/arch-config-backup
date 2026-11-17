@@ -113,6 +113,7 @@ steam
 sudo
 systemsettings
 thunderbird
+tree
 union
 unrar
 vim
