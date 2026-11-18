@@ -27,6 +27,7 @@ intel-media-driver
 intel-ucode
 intellij-idea-ultimate-edition
 java-environment-common
+jdk21-openjdk
 jdk25-openjdk
 kactivitymanagerd
 kde-cli-tools
