@@ -12,6 +12,7 @@ cups
 curseforge
 discord
 discover
+docker-compose
 dolphin
 drkonqi
 efibootmgr
@@ -100,8 +101,6 @@ plasma5support
 plymouth-kcm
 pnpm
 podman
-podman-compose
-podman-docker
 polkit-kde-agent
 powerdevil
 print-manager
