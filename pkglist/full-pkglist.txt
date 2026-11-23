@@ -52,6 +52,7 @@ kwayland
 kwin
 kwrited
 layer-shell-qt
+lazydocker
 lib32-nvidia-580xx-utils
 libkscreen
 libksysguard
