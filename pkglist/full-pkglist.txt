@@ -102,6 +102,7 @@ plymouth-kcm
 pnpm
 podman
 polkit-kde-agent
+postman-bin
 powerdevil
 print-manager
 python-pip
